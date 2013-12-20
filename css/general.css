@@ -1,0 +1,358 @@
+/* 
+    Document   : general
+    Created on : 06-12-2013, 04:24:24 PM
+    Author     : Eninfosfranco
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+html{
+                margin:0px;
+            }
+            
+            body{
+                margin:0px;
+            }
+            
+            header{
+                margin: 0px;
+            }
+            
+            #barraSuperior{
+                background-image: url('../images/header.jpg');
+                background-repeat:repeat;
+            }  
+            
+            a:active {
+                text-decoration: none;
+            }
+            
+            a:visited{
+                text-decoration: none;
+                outline: none;
+            }
+            
+            a:link {
+                text-decoration:none;
+                outline: none;
+            }
+            
+            /*
+            .nav > li > a:focus {
+                background-color: none;
+            }
+            
+            #menu > li > a{
+                color: #fff;
+            }
+            
+            #menu > li > a:hover {
+                text-decoration: underline;
+                transition: height 0.3s ease 0s, opacity 0.3s ease 0s, transform 0.3s ease 0s;
+                width: 100%;
+            }
+            */
+            /*a {
+                -webkit-transition: all 0.3s ease ;
+                -moz-transition: all 0.3s ease ;
+                -o-transition: all 0.3s ease ;
+                transition: all 0.3s ease ;
+                border-bottom: 2px solid #fff;
+                color: #0077AD;
+            }
+            
+            a:hover {
+                text-decoration: none;
+                padding-bottom: 6px;
+                border-bottom: 2px solid #0077AD;
+            }
+            
+            a:active {
+                text-decoration: none;
+                padding-bottom: 6px;
+                border-bottom: 2px solid #0077AD;
+            }*/
+            
+            .navbar-default{
+                background-color: transparent;
+                background-image: none;
+                border-color:transparent;
+            }
+            
+            @media (min-width: 768px) {
+                #menu{
+                    margin-left: 130px;
+                }
+            }
+            
+            @media (max-width: 767px) {
+                #menu{
+                    margin-top: 30px;
+                }
+            }
+   
+            #menu > li > a{
+                color: #fff;
+                text-decoration: none;
+                -webkit-transition: all 0.3s ease ;
+                -moz-transition: all 0.3s ease ;
+                -o-transition: all 0.3s ease ;
+                transition: all 0.3s ease ;
+                padding-bottom: 0px;
+                border-bottom: 2px solid transparent;
+                padding-left: 0px;
+                margin-left: 15px;
+                padding-right: 0px;
+                margin-right: 15px;
+            }
+            
+            #menu > li > a:hover{
+                text-decoration: none;
+                padding-bottom: 4px;
+                border-bottom: 2px solid #fff;
+            }
+            
+            .navbar-brand{
+                color: #fff;
+            }
+            
+            
+
+            #owl-demo .owl-item div{
+                padding:0px;
+            }
+            #owl-demo .owl-item img{
+                display: block;
+                width: 100%;
+                height: auto;
+                /*
+                -webkit-border-radius: 3px;
+                -moz-border-radius: 3px;
+                border-radius: 3px;
+                */
+            }
+            
+            #slider{
+                margin-top: 50px;
+            }
+
+            .navbar-brand {
+                padding: 0px;
+                
+            }
+            
+            
+            
+            @media (min-width: 768px) {
+                #logo{
+                    padding:0px; 
+                    margin:0px;
+                    position: absolute;
+                    box-shadow: 4px 2px 4px #888888;
+                    width: 130px;
+                }
+            }
+            
+            @media (max-width: 767px) {
+                #logo{
+                    padding:0px; 
+                    margin:0px;
+                    position: absolute;
+                    box-shadow: 4px 2px 4px #888888;
+                    width: 115px;
+                }
+            }
+            
+            
+            #news{
+               margin: 0px;
+               padding: 0px;
+               padding-bottom: 10px;
+               border-bottom: 2px solid #296fa3;
+            }
+            
+            #news > li{
+               list-style:none;
+               text-decoration: none; 
+            }
+            
+            #news > li >img{
+                width: 200px;
+                
+            }
+            
+            #newsTitulo{
+                color: #296fa3; 
+                font-weight: bold;
+            }
+
+            #newsCuerpo{
+                margin-top: 5px;
+                text-align: justify;
+                color: #000;
+            }
+            
+            #dateNews{
+                padding: 0px; 
+                margin: 0px;
+                color:#6E6E6E;
+                font-size: 12px;
+                text-align: right;
+            }
+            
+            #new{
+                padding: 10px;
+                -webkit-transition: all 0.5s ease ;
+                -moz-transition: all 0.5s ease ;
+                -o-transition: all 0.5s ease ;
+                transition: all 0.5s ease ;
+                
+            }
+            
+            #new:hover{
+                background-color: #E0F8F7;
+            }
+            
+            #new >a:hover{
+                text-decoration: none;
+            }
+            
+            #events{
+                padding: 10px;
+                cursor:pointer;
+                -webkit-transition: all 0.5s ease ;
+                -moz-transition: all 0.5s ease ;
+                -o-transition: all 0.5s ease ;
+                transition: all 0.5s ease ;
+            }
+            
+            #events:hover{
+                background-color: #E0F8F7;
+            }
+            
+            #events >a:hover{
+                text-decoration: none;
+            }
+            
+            
+            #dateEvents{
+                padding: 0px; margin: 0px;
+                color:#6E6E6E;
+                font-size: 12px;
+            }
+            
+            #owl-galeria .item{
+                display: block;
+                margin: 5px;
+            }
+            
+            #item > a{
+                text-decoration: none;
+            }
+            
+            #tituloAlbum{
+                color: #296fa3; 
+                font-weight: bold;
+                text-align: center;
+            }
+            
+            #item{
+                padding: 10px;
+            }
+            
+            #item:hover{
+                background-color: #E0F8F7;
+            }
+            
+            #galeria{
+                margin-top: 30px;
+            }
+            
+            #redes{
+                background: url('../images/legado2.jpg') no-repeat top right;
+                background-size: cover;
+                -moz-background-size: cover;
+                -webkit-background-size: cover;
+                -o-background-size: cover;
+            }
+            
+            #legado{
+                display: block;
+                width: 100%;
+                height: auto; 
+                padding: 0px; 
+                margin: 0px;
+            }
+            
+            #legado >div >div{
+                padding-top: 45px;
+                padding-bottom: 45px;
+            }
+            
+            #legado >div >div>div>h2{
+                color: #FFF;
+            }
+            
+            #legado >div >div>div>p{
+                color: #FFF;
+            }
+
+            footer{
+                padding: 40px 0px 20px 0px;
+            }
+            
+            footer > div > div > div > p > a{
+                font-weight: bold;
+                -webkit-transition: all 0.3s ease ;
+                -moz-transition: all 0.3s ease ;
+                -o-transition: all 0.3s ease ;
+                transition: all 0.3s ease ;
+                padding-bottom: 0px;
+                border-bottom: 2px solid transparent;
+            }
+            
+            footer > div > div > div > p > a:hover{
+               text-decoration: none;
+               padding-bottom: 4px;
+               border-bottom: 2px solid #296fa3; 
+            }
+            
+            footer > div > div > div > p{
+               text-align: center;
+               padding: 3px 0px 0px 0px;
+               margin: 0px;
+            }
+            
+            #redesSociales{
+                position: absolute;
+                margin-left: 67%;
+                margin-top: 30px;
+                list-style-type:none;  
+            }
+            #redesSociales li{
+                float: left;
+                padding-left: 5px;
+                padding-right: 5px;
+            }
+            
+            #redesSociales li > a{
+                text-decoration: none;
+            }
+
+            
+            #menuSecundario{
+                margin-bottom: 30px;
+            }
+            
+            #menuSecundarioPublicidad{
+                border-top: 1px solid #BDBDBD;
+                border-bottom: 1px solid #BDBDBD;
+                color: #848484;
+                padding-top: 10px;
+                padding-bottom: 10px;
+            }
+            
+            #menuSecundarioPublicidad>p{
+                padding: 0px;
+                margin: 0px;
+            }
