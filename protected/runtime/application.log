@@ -3889,3 +3889,1511 @@ Stack trace:
 REQUEST_URI=/admin/owl-carousel/owl.carousel.min.js
 HTTP_REFERER=http://localhost/admin/noticias/create
 ---
+2013/12/20 10:11:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "owl-carousel/owl.theme.css"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('owl-carousel/ow...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\admin\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/owl-carousel/owl.theme.css
+HTTP_REFERER=http://localhost/admin/noticias/create
+---
+2013/12/20 10:11:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "owl-carousel/owl.carousel.css"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('owl-carousel/ow...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\admin\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/owl-carousel/owl.carousel.css
+HTTP_REFERER=http://localhost/admin/noticias/create
+---
+2013/12/20 10:11:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "owl-carousel/owl.carousel.min.js"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('owl-carousel/ow...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\admin\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/owl-carousel/owl.carousel.min.js
+HTTP_REFERER=http://localhost/admin/noticias/create
+---
+2013/12/20 10:11:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "owl-carousel/owl.carousel.css"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('owl-carousel/ow...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\admin\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/owl-carousel/owl.carousel.css
+HTTP_REFERER=http://localhost/admin/noticias/admin
+---
+2013/12/20 10:11:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "owl-carousel/owl.theme.css"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('owl-carousel/ow...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\admin\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/owl-carousel/owl.theme.css
+HTTP_REFERER=http://localhost/admin/noticias/admin
+---
+2013/12/20 10:11:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "owl-carousel/owl.carousel.min.js"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('owl-carousel/ow...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\admin\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/owl-carousel/owl.carousel.min.js
+HTTP_REFERER=http://localhost/admin/noticias/admin
+---
+2013/12/20 10:11:15 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'Usted no se encuentra autorizado a realizar esta acción.' in C:\xampp\htdocs\yii\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'Usted no se enc...')
+#1 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('view')
+#8 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('noticias/view')
+#9 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\admin\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/admin/noticias/1
+HTTP_REFERER=http://localhost/admin/noticias/admin
+---
+2013/12/20 10:11:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "owl-carousel/owl.carousel.css"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('owl-carousel/ow...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\admin\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/owl-carousel/owl.carousel.css
+HTTP_REFERER=http://localhost/admin/noticias/1
+---
+2013/12/20 10:11:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "owl-carousel/owl.theme.css"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('owl-carousel/ow...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\admin\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/owl-carousel/owl.theme.css
+HTTP_REFERER=http://localhost/admin/noticias/1
+---
+2013/12/20 10:11:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "owl-carousel/owl.carousel.min.js"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('owl-carousel/ow...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\admin\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/owl-carousel/owl.carousel.min.js
+HTTP_REFERER=http://localhost/admin/noticias/1
+---
+2013/12/20 10:11:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "owl-carousel/owl.theme.css"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('owl-carousel/ow...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\admin\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/owl-carousel/owl.theme.css
+HTTP_REFERER=http://localhost/admin/noticias/admin
+---
+2013/12/20 10:11:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "owl-carousel/owl.carousel.css"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('owl-carousel/ow...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\admin\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/owl-carousel/owl.carousel.css
+HTTP_REFERER=http://localhost/admin/noticias/admin
+---
+2013/12/20 10:11:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "owl-carousel/owl.carousel.min.js"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('owl-carousel/ow...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\admin\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/owl-carousel/owl.carousel.min.js
+HTTP_REFERER=http://localhost/admin/noticias/admin
+---
+2013/12/20 10:11:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "owl-carousel/owl.carousel.css"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('owl-carousel/ow...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\admin\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/owl-carousel/owl.carousel.css
+HTTP_REFERER=http://localhost/admin/noticias/update/2
+---
+2013/12/20 10:11:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "owl-carousel/owl.theme.css"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('owl-carousel/ow...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\admin\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/owl-carousel/owl.theme.css
+HTTP_REFERER=http://localhost/admin/noticias/update/2
+---
+2013/12/20 10:11:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "owl-carousel/owl.carousel.min.js"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('owl-carousel/ow...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\admin\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/owl-carousel/owl.carousel.min.js
+HTTP_REFERER=http://localhost/admin/noticias/update/2
+---
+2013/12/20 10:11:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "owl-carousel/owl.theme.css"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('owl-carousel/ow...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\admin\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/owl-carousel/owl.theme.css
+HTTP_REFERER=http://localhost/admin/noticias/admin
+---
+2013/12/20 10:11:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "owl-carousel/owl.carousel.css"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('owl-carousel/ow...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\admin\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/owl-carousel/owl.carousel.css
+HTTP_REFERER=http://localhost/admin/noticias/admin
+---
+2013/12/20 10:11:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "owl-carousel/owl.carousel.min.js"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('owl-carousel/ow...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\admin\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/owl-carousel/owl.carousel.min.js
+HTTP_REFERER=http://localhost/admin/noticias/admin
+---
+2013/12/20 10:11:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "owl-carousel/owl.theme.css"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('owl-carousel/ow...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\admin\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/owl-carousel/owl.theme.css
+HTTP_REFERER=http://localhost/admin/noticias/admin
+---
+2013/12/20 10:11:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "owl-carousel/owl.carousel.css"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('owl-carousel/ow...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\admin\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/owl-carousel/owl.carousel.css
+HTTP_REFERER=http://localhost/admin/noticias/admin
+---
+2013/12/20 10:11:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "owl-carousel/owl.carousel.min.js"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('owl-carousel/ow...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\admin\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/owl-carousel/owl.carousel.min.js
+HTTP_REFERER=http://localhost/admin/noticias/admin
+---
+2013/12/20 10:11:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "owl-carousel/owl.theme.css"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('owl-carousel/ow...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\admin\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/owl-carousel/owl.theme.css
+HTTP_REFERER=http://localhost/admin/noticias/1
+---
+2013/12/20 10:11:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "owl-carousel/owl.carousel.css"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('owl-carousel/ow...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\admin\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/owl-carousel/owl.carousel.css
+HTTP_REFERER=http://localhost/admin/noticias/1
+---
+2013/12/20 10:11:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "owl-carousel/owl.carousel.min.js"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('owl-carousel/ow...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\admin\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/owl-carousel/owl.carousel.min.js
+HTTP_REFERER=http://localhost/admin/noticias/1
+---
+2013/12/20 10:11:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "owl-carousel/owl.theme.css"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('owl-carousel/ow...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\admin\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/owl-carousel/owl.theme.css
+HTTP_REFERER=http://localhost/admin/noticias/admin
+---
+2013/12/20 10:11:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "owl-carousel/owl.carousel.css"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('owl-carousel/ow...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\admin\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/owl-carousel/owl.carousel.css
+HTTP_REFERER=http://localhost/admin/noticias/admin
+---
+2013/12/20 10:11:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "owl-carousel/owl.carousel.min.js"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('owl-carousel/ow...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\admin\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/owl-carousel/owl.carousel.min.js
+HTTP_REFERER=http://localhost/admin/noticias/admin
+---
+2013/12/20 10:11:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "owl-carousel/owl.carousel.min.js"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('owl-carousel/ow...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\admin\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/owl-carousel/owl.carousel.min.js
+HTTP_REFERER=http://localhost/admin/noticias/admin
+---
+2013/12/20 10:12:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "owl-carousel/owl.theme.css"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('owl-carousel/ow...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\admin\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/owl-carousel/owl.theme.css
+HTTP_REFERER=http://localhost/admin/noticias/1
+---
+2013/12/20 10:12:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "owl-carousel/owl.carousel.css"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('owl-carousel/ow...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\admin\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/owl-carousel/owl.carousel.css
+HTTP_REFERER=http://localhost/admin/noticias/1
+---
+2013/12/20 10:12:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "owl-carousel/owl.carousel.min.js"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('owl-carousel/ow...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\admin\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/owl-carousel/owl.carousel.min.js
+HTTP_REFERER=http://localhost/admin/noticias/1
+---
+2013/12/20 10:12:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "owl-carousel/owl.carousel.css"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('owl-carousel/ow...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\admin\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/owl-carousel/owl.carousel.css
+HTTP_REFERER=http://localhost/admin/noticias/admin
+---
+2013/12/20 10:12:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "owl-carousel/owl.theme.css"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('owl-carousel/ow...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\admin\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/owl-carousel/owl.theme.css
+HTTP_REFERER=http://localhost/admin/noticias/admin
+---
+2013/12/20 10:12:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "owl-carousel/owl.carousel.min.js"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('owl-carousel/ow...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\admin\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/owl-carousel/owl.carousel.min.js
+HTTP_REFERER=http://localhost/admin/noticias/admin
+---
+2013/12/20 10:12:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "owl-carousel/owl.theme.css"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('owl-carousel/ow...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\admin\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/owl-carousel/owl.theme.css
+HTTP_REFERER=http://localhost/admin/noticias/update/1
+---
+2013/12/20 10:12:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "owl-carousel/owl.carousel.css"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('owl-carousel/ow...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\admin\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/owl-carousel/owl.carousel.css
+HTTP_REFERER=http://localhost/admin/noticias/update/1
+---
+2013/12/20 10:12:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "owl-carousel/owl.carousel.min.js"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('owl-carousel/ow...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\admin\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/owl-carousel/owl.carousel.min.js
+HTTP_REFERER=http://localhost/admin/noticias/update/1
+---
+2013/12/20 10:12:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "owl-carousel/owl.carousel.css"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('owl-carousel/ow...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\admin\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/owl-carousel/owl.carousel.css
+HTTP_REFERER=http://localhost/admin/noticias/admin
+---
+2013/12/20 10:12:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "owl-carousel/owl.theme.css"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('owl-carousel/ow...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\admin\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/owl-carousel/owl.theme.css
+HTTP_REFERER=http://localhost/admin/noticias/admin
+---
+2013/12/20 10:12:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "owl-carousel/owl.carousel.min.js"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('owl-carousel/ow...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\admin\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/owl-carousel/owl.carousel.min.js
+HTTP_REFERER=http://localhost/admin/noticias/admin
+---
+2013/12/20 10:12:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "owl-carousel/owl.carousel.css"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('owl-carousel/ow...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\admin\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/owl-carousel/owl.carousel.css
+HTTP_REFERER=http://localhost/admin/noticias/1
+---
+2013/12/20 10:12:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "owl-carousel/owl.theme.css"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('owl-carousel/ow...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\admin\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/owl-carousel/owl.theme.css
+HTTP_REFERER=http://localhost/admin/noticias/1
+---
+2013/12/20 10:12:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "owl-carousel/owl.carousel.min.js"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('owl-carousel/ow...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\admin\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/owl-carousel/owl.carousel.min.js
+HTTP_REFERER=http://localhost/admin/noticias/1
+---
+2013/12/20 10:12:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "owl-carousel/owl.carousel.min.js"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('owl-carousel/ow...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\admin\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/owl-carousel/owl.carousel.min.js
+HTTP_REFERER=http://localhost/admin/noticias/1
+---
+2013/12/20 10:12:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "owl-carousel/owl.carousel.css"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('owl-carousel/ow...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\admin\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/owl-carousel/owl.carousel.css
+HTTP_REFERER=http://localhost/admin/noticias/admin
+---
+2013/12/20 10:12:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "owl-carousel/owl.theme.css"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('owl-carousel/ow...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\admin\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/owl-carousel/owl.theme.css
+HTTP_REFERER=http://localhost/admin/noticias/admin
+---
+2013/12/20 10:12:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "owl-carousel/owl.carousel.min.js"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('owl-carousel/ow...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\admin\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/owl-carousel/owl.carousel.min.js
+HTTP_REFERER=http://localhost/admin/noticias/admin
+---
+2013/12/20 10:12:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "owl-carousel/owl.carousel.min.js"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('owl-carousel/ow...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\admin\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/owl-carousel/owl.carousel.min.js
+HTTP_REFERER=http://localhost/admin/noticias/admin
+---
+2013/12/20 10:12:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "owl-carousel/owl.carousel.css"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('owl-carousel/ow...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\admin\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/owl-carousel/owl.carousel.css
+HTTP_REFERER=http://localhost/admin/noticias/create
+---
+2013/12/20 10:12:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "owl-carousel/owl.theme.css"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('owl-carousel/ow...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\admin\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/owl-carousel/owl.theme.css
+HTTP_REFERER=http://localhost/admin/noticias/create
+---
+2013/12/20 10:12:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "owl-carousel/owl.carousel.min.js"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('owl-carousel/ow...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\admin\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/owl-carousel/owl.carousel.min.js
+HTTP_REFERER=http://localhost/admin/noticias/create
+---
+2013/12/20 10:17:17 [error] [exception.CException] exception 'CException' with message 'El alias "zii.widgerts.jui.CJuiDatePiker" es inválido. Asegúrese de que apunta a un archivo PHP existente y que el archivo tiene permisos de lectura.' in C:\xampp\htdocs\yii\framework\YiiBase.php:322
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWidgetFactory.php(146): YiiBase::import('zii.widgerts.ju...', true)
+#1 C:\xampp\htdocs\yii\framework\web\CBaseController.php(146): CWidgetFactory->createWidget(Object(NoticiasController), 'zii.widgerts.ju...', Array)
+#2 C:\xampp\htdocs\yii\framework\web\CBaseController.php(172): CBaseController->createWidget('zii.widgerts.ju...', Array)
+#3 C:\xampp\htdocs\admin\protected\views\noticias\_form.php(43): CBaseController->widget('zii.widgerts.ju...', Array)
+#4 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#5 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#7 C:\xampp\htdocs\admin\protected\views\noticias\create.php(13): CController->renderPartial('_form', Array)
+#8 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#9 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#10 C:\xampp\htdocs\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#11 C:\xampp\htdocs\yii\framework\web\CController.php(782): CController->renderPartial('create', Array, true)
+#12 C:\xampp\htdocs\admin\protected\controllers\NoticiasController.php(71): CController->render('create', Array)
+#13 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): NoticiasController->actionCreate()
+#14 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#15 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#16 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#17 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#18 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#19 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#20 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#21 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#22 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('create')
+#23 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('noticias/create')
+#24 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#25 C:\xampp\htdocs\admin\index.php(13): CApplication->run()
+#26 {main}
+REQUEST_URI=/admin/noticias/create
+HTTP_REFERER=http://localhost/admin/noticias/admin
+---
+2013/12/20 10:17:27 [error] [exception.CException] exception 'CException' with message 'El alias "zii.widgets.jui.CJuiDatePiker" es inválido. Asegúrese de que apunta a un archivo PHP existente y que el archivo tiene permisos de lectura.' in C:\xampp\htdocs\yii\framework\YiiBase.php:322
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWidgetFactory.php(146): YiiBase::import('zii.widgets.jui...', true)
+#1 C:\xampp\htdocs\yii\framework\web\CBaseController.php(146): CWidgetFactory->createWidget(Object(NoticiasController), 'zii.widgets.jui...', Array)
+#2 C:\xampp\htdocs\yii\framework\web\CBaseController.php(172): CBaseController->createWidget('zii.widgets.jui...', Array)
+#3 C:\xampp\htdocs\admin\protected\views\noticias\_form.php(43): CBaseController->widget('zii.widgets.jui...', Array)
+#4 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#5 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#7 C:\xampp\htdocs\admin\protected\views\noticias\create.php(13): CController->renderPartial('_form', Array)
+#8 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#9 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#10 C:\xampp\htdocs\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#11 C:\xampp\htdocs\yii\framework\web\CController.php(782): CController->renderPartial('create', Array, true)
+#12 C:\xampp\htdocs\admin\protected\controllers\NoticiasController.php(71): CController->render('create', Array)
+#13 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): NoticiasController->actionCreate()
+#14 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#15 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#16 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#17 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#18 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#19 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#20 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#21 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#22 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('create')
+#23 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('noticias/create')
+#24 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#25 C:\xampp\htdocs\admin\index.php(13): CApplication->run()
+#26 {main}
+REQUEST_URI=/admin/noticias/create
+HTTP_REFERER=http://localhost/admin/noticias/admin
+---
+2013/12/20 10:17:45 [error] [exception.CException] exception 'CException' with message 'El alias "zii.widgets.jui.CJuiDatePiker" es inválido. Asegúrese de que apunta a un archivo PHP existente y que el archivo tiene permisos de lectura.' in C:\xampp\htdocs\yii\framework\YiiBase.php:322
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWidgetFactory.php(146): YiiBase::import('zii.widgets.jui...', true)
+#1 C:\xampp\htdocs\yii\framework\web\CBaseController.php(146): CWidgetFactory->createWidget(Object(NoticiasController), 'zii.widgets.jui...', Array)
+#2 C:\xampp\htdocs\yii\framework\web\CBaseController.php(172): CBaseController->createWidget('zii.widgets.jui...', Array)
+#3 C:\xampp\htdocs\admin\protected\views\noticias\_form.php(43): CBaseController->widget('zii.widgets.jui...', Array)
+#4 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#5 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#7 C:\xampp\htdocs\admin\protected\views\noticias\create.php(13): CController->renderPartial('_form', Array)
+#8 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#9 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#10 C:\xampp\htdocs\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#11 C:\xampp\htdocs\yii\framework\web\CController.php(782): CController->renderPartial('create', Array, true)
+#12 C:\xampp\htdocs\admin\protected\controllers\NoticiasController.php(71): CController->render('create', Array)
+#13 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): NoticiasController->actionCreate()
+#14 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#15 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#16 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#17 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#18 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#19 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#20 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#21 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#22 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('create')
+#23 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('noticias/create')
+#24 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#25 C:\xampp\htdocs\admin\index.php(13): CApplication->run()
+#26 {main}
+REQUEST_URI=/admin/noticias/create
+HTTP_REFERER=http://localhost/admin/noticias/admin
+---
+2013/12/20 10:18:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "owl-carousel/owl.carousel.css"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('owl-carousel/ow...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\admin\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/owl-carousel/owl.carousel.css
+HTTP_REFERER=http://localhost/admin/noticias/create
+---
+2013/12/20 10:18:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "owl-carousel/owl.theme.css"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('owl-carousel/ow...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\admin\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/owl-carousel/owl.theme.css
+HTTP_REFERER=http://localhost/admin/noticias/create
+---
+2013/12/20 10:18:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "owl-carousel/owl.carousel.min.js"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('owl-carousel/ow...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\admin\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/owl-carousel/owl.carousel.min.js
+HTTP_REFERER=http://localhost/admin/noticias/create
+---
+2013/12/20 10:18:57 [error] [exception.CException] exception 'CException' with message 'La propiedad "CJuiDatePicker"."class" no se encuentra definida.' in C:\xampp\htdocs\yii\framework\base\CComponent.php:173
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWidgetFactory.php(161): CComponent->__set('class', 'form-control')
+#1 C:\xampp\htdocs\yii\framework\web\CBaseController.php(146): CWidgetFactory->createWidget(Object(NoticiasController), 'zii.widgets.jui...', Array)
+#2 C:\xampp\htdocs\yii\framework\web\CBaseController.php(172): CBaseController->createWidget('zii.widgets.jui...', Array)
+#3 C:\xampp\htdocs\admin\protected\views\noticias\_form.php(43): CBaseController->widget('zii.widgets.jui...', Array)
+#4 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#5 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#7 C:\xampp\htdocs\admin\protected\views\noticias\create.php(13): CController->renderPartial('_form', Array)
+#8 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#9 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#10 C:\xampp\htdocs\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#11 C:\xampp\htdocs\yii\framework\web\CController.php(782): CController->renderPartial('create', Array, true)
+#12 C:\xampp\htdocs\admin\protected\controllers\NoticiasController.php(71): CController->render('create', Array)
+#13 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): NoticiasController->actionCreate()
+#14 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#15 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#16 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#17 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#18 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#19 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#20 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#21 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#22 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('create')
+#23 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('noticias/create')
+#24 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#25 C:\xampp\htdocs\admin\index.php(13): CApplication->run()
+#26 {main}
+REQUEST_URI=/admin/noticias/create
+HTTP_REFERER=http://localhost/admin/noticias/admin
+---
+2013/12/20 10:19:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "owl-carousel/owl.carousel.css"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('owl-carousel/ow...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\admin\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/owl-carousel/owl.carousel.css
+HTTP_REFERER=http://localhost/admin/noticias/create
+---
+2013/12/20 10:19:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "owl-carousel/owl.theme.css"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('owl-carousel/ow...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\admin\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/owl-carousel/owl.theme.css
+HTTP_REFERER=http://localhost/admin/noticias/create
+---
+2013/12/20 10:19:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "owl-carousel/owl.carousel.min.js"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('owl-carousel/ow...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\admin\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/owl-carousel/owl.carousel.min.js
+HTTP_REFERER=http://localhost/admin/noticias/create
+---
+2013/12/20 10:20:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "owl-carousel/owl.carousel.css"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('owl-carousel/ow...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\admin\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/owl-carousel/owl.carousel.css
+HTTP_REFERER=http://localhost/admin/noticias/create
+---
+2013/12/20 10:20:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "owl-carousel/owl.theme.css"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('owl-carousel/ow...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\admin\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/owl-carousel/owl.theme.css
+HTTP_REFERER=http://localhost/admin/noticias/create
+---
+2013/12/20 10:20:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "owl-carousel/owl.carousel.min.js"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('owl-carousel/ow...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\admin\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/owl-carousel/owl.carousel.min.js
+HTTP_REFERER=http://localhost/admin/noticias/create
+---
+2013/12/20 10:20:35 [error] [exception.CException] exception 'CException' with message 'La propiedad "CJuiDatePicker"."0" no se encuentra definida.' in C:\xampp\htdocs\yii\framework\base\CComponent.php:173
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWidgetFactory.php(161): CComponent->__set('0', Array)
+#1 C:\xampp\htdocs\yii\framework\web\CBaseController.php(146): CWidgetFactory->createWidget(Object(NoticiasController), 'zii.widgets.jui...', Array)
+#2 C:\xampp\htdocs\yii\framework\web\CBaseController.php(172): CBaseController->createWidget('zii.widgets.jui...', Array)
+#3 C:\xampp\htdocs\admin\protected\views\noticias\_form.php(43): CBaseController->widget('zii.widgets.jui...', Array)
+#4 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#5 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#7 C:\xampp\htdocs\admin\protected\views\noticias\create.php(13): CController->renderPartial('_form', Array)
+#8 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#9 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#10 C:\xampp\htdocs\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#11 C:\xampp\htdocs\yii\framework\web\CController.php(782): CController->renderPartial('create', Array, true)
+#12 C:\xampp\htdocs\admin\protected\controllers\NoticiasController.php(71): CController->render('create', Array)
+#13 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): NoticiasController->actionCreate()
+#14 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#15 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#16 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#17 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#18 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#19 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#20 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#21 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#22 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('create')
+#23 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('noticias/create')
+#24 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#25 C:\xampp\htdocs\admin\index.php(13): CApplication->run()
+#26 {main}
+REQUEST_URI=/admin/noticias/create
+HTTP_REFERER=http://localhost/admin/noticias/admin
+---
+2013/12/20 10:20:55 [error] [exception.CException] exception 'CException' with message 'La propiedad "CJuiDatePicker"."class" no se encuentra definida.' in C:\xampp\htdocs\yii\framework\base\CComponent.php:173
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWidgetFactory.php(161): CComponent->__set('class', 'form-control')
+#1 C:\xampp\htdocs\yii\framework\web\CBaseController.php(146): CWidgetFactory->createWidget(Object(NoticiasController), 'zii.widgets.jui...', Array)
+#2 C:\xampp\htdocs\yii\framework\web\CBaseController.php(172): CBaseController->createWidget('zii.widgets.jui...', Array)
+#3 C:\xampp\htdocs\admin\protected\views\noticias\_form.php(43): CBaseController->widget('zii.widgets.jui...', Array)
+#4 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#5 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#7 C:\xampp\htdocs\admin\protected\views\noticias\create.php(13): CController->renderPartial('_form', Array)
+#8 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#9 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#10 C:\xampp\htdocs\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#11 C:\xampp\htdocs\yii\framework\web\CController.php(782): CController->renderPartial('create', Array, true)
+#12 C:\xampp\htdocs\admin\protected\controllers\NoticiasController.php(71): CController->render('create', Array)
+#13 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): NoticiasController->actionCreate()
+#14 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#15 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#16 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#17 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#18 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#19 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#20 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#21 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#22 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('create')
+#23 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('noticias/create')
+#24 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#25 C:\xampp\htdocs\admin\index.php(13): CApplication->run()
+#26 {main}
+REQUEST_URI=/admin/noticias/create
+HTTP_REFERER=http://localhost/admin/noticias/admin
+---
+2013/12/20 10:20:56 [error] [exception.CException] exception 'CException' with message 'La propiedad "CJuiDatePicker"."class" no se encuentra definida.' in C:\xampp\htdocs\yii\framework\base\CComponent.php:173
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWidgetFactory.php(161): CComponent->__set('class', 'form-control')
+#1 C:\xampp\htdocs\yii\framework\web\CBaseController.php(146): CWidgetFactory->createWidget(Object(NoticiasController), 'zii.widgets.jui...', Array)
+#2 C:\xampp\htdocs\yii\framework\web\CBaseController.php(172): CBaseController->createWidget('zii.widgets.jui...', Array)
+#3 C:\xampp\htdocs\admin\protected\views\noticias\_form.php(43): CBaseController->widget('zii.widgets.jui...', Array)
+#4 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#5 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#7 C:\xampp\htdocs\admin\protected\views\noticias\create.php(13): CController->renderPartial('_form', Array)
+#8 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#9 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#10 C:\xampp\htdocs\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#11 C:\xampp\htdocs\yii\framework\web\CController.php(782): CController->renderPartial('create', Array, true)
+#12 C:\xampp\htdocs\admin\protected\controllers\NoticiasController.php(71): CController->render('create', Array)
+#13 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): NoticiasController->actionCreate()
+#14 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#15 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#16 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#17 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#18 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#19 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#20 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#21 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#22 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('create')
+#23 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('noticias/create')
+#24 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#25 C:\xampp\htdocs\admin\index.php(13): CApplication->run()
+#26 {main}
+REQUEST_URI=/admin/noticias/create
+HTTP_REFERER=http://localhost/admin/noticias/admin
+---
+2013/12/20 10:20:56 [error] [exception.CException] exception 'CException' with message 'La propiedad "CJuiDatePicker"."class" no se encuentra definida.' in C:\xampp\htdocs\yii\framework\base\CComponent.php:173
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWidgetFactory.php(161): CComponent->__set('class', 'form-control')
+#1 C:\xampp\htdocs\yii\framework\web\CBaseController.php(146): CWidgetFactory->createWidget(Object(NoticiasController), 'zii.widgets.jui...', Array)
+#2 C:\xampp\htdocs\yii\framework\web\CBaseController.php(172): CBaseController->createWidget('zii.widgets.jui...', Array)
+#3 C:\xampp\htdocs\admin\protected\views\noticias\_form.php(43): CBaseController->widget('zii.widgets.jui...', Array)
+#4 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#5 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#7 C:\xampp\htdocs\admin\protected\views\noticias\create.php(13): CController->renderPartial('_form', Array)
+#8 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#9 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#10 C:\xampp\htdocs\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#11 C:\xampp\htdocs\yii\framework\web\CController.php(782): CController->renderPartial('create', Array, true)
+#12 C:\xampp\htdocs\admin\protected\controllers\NoticiasController.php(71): CController->render('create', Array)
+#13 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): NoticiasController->actionCreate()
+#14 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#15 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#16 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#17 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#18 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#19 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#20 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#21 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#22 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('create')
+#23 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('noticias/create')
+#24 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#25 C:\xampp\htdocs\admin\index.php(13): CApplication->run()
+#26 {main}
+REQUEST_URI=/admin/noticias/create
+HTTP_REFERER=http://localhost/admin/noticias/admin
+---
+2013/12/20 10:20:56 [error] [exception.CException] exception 'CException' with message 'La propiedad "CJuiDatePicker"."class" no se encuentra definida.' in C:\xampp\htdocs\yii\framework\base\CComponent.php:173
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWidgetFactory.php(161): CComponent->__set('class', 'form-control')
+#1 C:\xampp\htdocs\yii\framework\web\CBaseController.php(146): CWidgetFactory->createWidget(Object(NoticiasController), 'zii.widgets.jui...', Array)
+#2 C:\xampp\htdocs\yii\framework\web\CBaseController.php(172): CBaseController->createWidget('zii.widgets.jui...', Array)
+#3 C:\xampp\htdocs\admin\protected\views\noticias\_form.php(43): CBaseController->widget('zii.widgets.jui...', Array)
+#4 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#5 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#7 C:\xampp\htdocs\admin\protected\views\noticias\create.php(13): CController->renderPartial('_form', Array)
+#8 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#9 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#10 C:\xampp\htdocs\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#11 C:\xampp\htdocs\yii\framework\web\CController.php(782): CController->renderPartial('create', Array, true)
+#12 C:\xampp\htdocs\admin\protected\controllers\NoticiasController.php(71): CController->render('create', Array)
+#13 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): NoticiasController->actionCreate()
+#14 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#15 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#16 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#17 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#18 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#19 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#20 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#21 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#22 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('create')
+#23 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('noticias/create')
+#24 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#25 C:\xampp\htdocs\admin\index.php(13): CApplication->run()
+#26 {main}
+REQUEST_URI=/admin/noticias/create
+HTTP_REFERER=http://localhost/admin/noticias/admin
+---
+2013/12/20 10:22:04 [error] [exception.CException] exception 'CException' with message 'La propiedad "CJuiDatePicker"."class" no se encuentra definida.' in C:\xampp\htdocs\yii\framework\base\CComponent.php:173
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWidgetFactory.php(161): CComponent->__set('class', 'form-control')
+#1 C:\xampp\htdocs\yii\framework\web\CBaseController.php(146): CWidgetFactory->createWidget(Object(NoticiasController), 'zii.widgets.jui...', Array)
+#2 C:\xampp\htdocs\yii\framework\web\CBaseController.php(172): CBaseController->createWidget('zii.widgets.jui...', Array)
+#3 C:\xampp\htdocs\admin\protected\views\noticias\_form.php(46): CBaseController->widget('zii.widgets.jui...', Array)
+#4 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#5 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#7 C:\xampp\htdocs\admin\protected\views\noticias\create.php(13): CController->renderPartial('_form', Array)
+#8 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#9 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#10 C:\xampp\htdocs\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#11 C:\xampp\htdocs\yii\framework\web\CController.php(782): CController->renderPartial('create', Array, true)
+#12 C:\xampp\htdocs\admin\protected\controllers\NoticiasController.php(71): CController->render('create', Array)
+#13 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): NoticiasController->actionCreate()
+#14 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#15 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#16 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#17 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#18 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#19 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#20 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#21 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#22 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('create')
+#23 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('noticias/create')
+#24 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#25 C:\xampp\htdocs\admin\index.php(13): CApplication->run()
+#26 {main}
+REQUEST_URI=/admin/noticias/create
+HTTP_REFERER=http://localhost/admin/noticias/admin
+---
+2013/12/20 10:22:05 [error] [exception.CException] exception 'CException' with message 'La propiedad "CJuiDatePicker"."class" no se encuentra definida.' in C:\xampp\htdocs\yii\framework\base\CComponent.php:173
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWidgetFactory.php(161): CComponent->__set('class', 'form-control')
+#1 C:\xampp\htdocs\yii\framework\web\CBaseController.php(146): CWidgetFactory->createWidget(Object(NoticiasController), 'zii.widgets.jui...', Array)
+#2 C:\xampp\htdocs\yii\framework\web\CBaseController.php(172): CBaseController->createWidget('zii.widgets.jui...', Array)
+#3 C:\xampp\htdocs\admin\protected\views\noticias\_form.php(46): CBaseController->widget('zii.widgets.jui...', Array)
+#4 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#5 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#7 C:\xampp\htdocs\admin\protected\views\noticias\create.php(13): CController->renderPartial('_form', Array)
+#8 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#9 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#10 C:\xampp\htdocs\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#11 C:\xampp\htdocs\yii\framework\web\CController.php(782): CController->renderPartial('create', Array, true)
+#12 C:\xampp\htdocs\admin\protected\controllers\NoticiasController.php(71): CController->render('create', Array)
+#13 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): NoticiasController->actionCreate()
+#14 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#15 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#16 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#17 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#18 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#19 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#20 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#21 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#22 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('create')
+#23 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('noticias/create')
+#24 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#25 C:\xampp\htdocs\admin\index.php(13): CApplication->run()
+#26 {main}
+REQUEST_URI=/admin/noticias/create
+HTTP_REFERER=http://localhost/admin/noticias/admin
+---
+2013/12/20 10:22:07 [error] [exception.CException] exception 'CException' with message 'La propiedad "CJuiDatePicker"."class" no se encuentra definida.' in C:\xampp\htdocs\yii\framework\base\CComponent.php:173
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWidgetFactory.php(161): CComponent->__set('class', 'form-control')
+#1 C:\xampp\htdocs\yii\framework\web\CBaseController.php(146): CWidgetFactory->createWidget(Object(NoticiasController), 'zii.widgets.jui...', Array)
+#2 C:\xampp\htdocs\yii\framework\web\CBaseController.php(172): CBaseController->createWidget('zii.widgets.jui...', Array)
+#3 C:\xampp\htdocs\admin\protected\views\noticias\_form.php(46): CBaseController->widget('zii.widgets.jui...', Array)
+#4 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#5 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#7 C:\xampp\htdocs\admin\protected\views\noticias\create.php(13): CController->renderPartial('_form', Array)
+#8 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#9 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#10 C:\xampp\htdocs\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#11 C:\xampp\htdocs\yii\framework\web\CController.php(782): CController->renderPartial('create', Array, true)
+#12 C:\xampp\htdocs\admin\protected\controllers\NoticiasController.php(71): CController->render('create', Array)
+#13 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): NoticiasController->actionCreate()
+#14 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#15 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#16 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#17 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#18 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#19 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#20 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#21 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#22 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('create')
+#23 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('noticias/create')
+#24 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#25 C:\xampp\htdocs\admin\index.php(13): CApplication->run()
+#26 {main}
+REQUEST_URI=/admin/noticias/create
+---
+2013/12/20 10:22:18 [error] [exception.CException] exception 'CException' with message 'La propiedad "CJuiDatePicker"."class" no se encuentra definida.' in C:\xampp\htdocs\yii\framework\base\CComponent.php:173
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWidgetFactory.php(161): CComponent->__set('class', 'form-control')
+#1 C:\xampp\htdocs\yii\framework\web\CBaseController.php(146): CWidgetFactory->createWidget(Object(NoticiasController), 'zii.widgets.jui...', Array)
+#2 C:\xampp\htdocs\yii\framework\web\CBaseController.php(172): CBaseController->createWidget('zii.widgets.jui...', Array)
+#3 C:\xampp\htdocs\admin\protected\views\noticias\_form.php(44): CBaseController->widget('zii.widgets.jui...', Array)
+#4 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#5 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#7 C:\xampp\htdocs\admin\protected\views\noticias\create.php(13): CController->renderPartial('_form', Array)
+#8 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#9 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#10 C:\xampp\htdocs\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#11 C:\xampp\htdocs\yii\framework\web\CController.php(782): CController->renderPartial('create', Array, true)
+#12 C:\xampp\htdocs\admin\protected\controllers\NoticiasController.php(71): CController->render('create', Array)
+#13 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): NoticiasController->actionCreate()
+#14 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#15 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#16 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#17 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#18 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#19 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#20 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#21 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#22 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('create')
+#23 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('noticias/create')
+#24 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#25 C:\xampp\htdocs\admin\index.php(13): CApplication->run()
+#26 {main}
+REQUEST_URI=/admin/noticias/create
+---
+2013/12/20 10:22:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "owl-carousel/owl.theme.css"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('owl-carousel/ow...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\admin\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/owl-carousel/owl.theme.css
+HTTP_REFERER=http://localhost/admin/noticias/create
+---
+2013/12/20 10:22:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "owl-carousel/owl.carousel.css"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('owl-carousel/ow...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\admin\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/owl-carousel/owl.carousel.css
+HTTP_REFERER=http://localhost/admin/noticias/create
+---
+2013/12/20 10:22:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "owl-carousel/owl.carousel.min.js"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('owl-carousel/ow...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\admin\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/owl-carousel/owl.carousel.min.js
+HTTP_REFERER=http://localhost/admin/noticias/create
+---
+2013/12/20 10:22:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "owl-carousel/owl.theme.css"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('owl-carousel/ow...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\admin\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/owl-carousel/owl.theme.css
+HTTP_REFERER=http://localhost/admin/noticias/create
+---
+2013/12/20 10:22:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "owl-carousel/owl.carousel.css"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('owl-carousel/ow...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\admin\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/owl-carousel/owl.carousel.css
+HTTP_REFERER=http://localhost/admin/noticias/create
+---
+2013/12/20 10:22:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "owl-carousel/owl.carousel.min.js"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('owl-carousel/ow...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\admin\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/owl-carousel/owl.carousel.min.js
+HTTP_REFERER=http://localhost/admin/noticias/create
+---
+2013/12/20 10:22:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "owl-carousel/owl.theme.css"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('owl-carousel/ow...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\admin\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/owl-carousel/owl.theme.css
+HTTP_REFERER=http://localhost/admin/noticias/create
+---
+2013/12/20 10:22:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "owl-carousel/owl.carousel.css"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('owl-carousel/ow...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\admin\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/owl-carousel/owl.carousel.css
+HTTP_REFERER=http://localhost/admin/noticias/create
+---
+2013/12/20 10:22:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "owl-carousel/owl.carousel.min.js"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('owl-carousel/ow...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\admin\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/owl-carousel/owl.carousel.min.js
+HTTP_REFERER=http://localhost/admin/noticias/create
+---
+2013/12/20 10:25:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "owl-carousel/owl.carousel.css"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('owl-carousel/ow...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\admin\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/owl-carousel/owl.carousel.css
+HTTP_REFERER=http://localhost/admin/noticias/create
+---
+2013/12/20 10:25:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "owl-carousel/owl.theme.css"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('owl-carousel/ow...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\admin\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/owl-carousel/owl.theme.css
+HTTP_REFERER=http://localhost/admin/noticias/create
+---
+2013/12/20 10:25:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "owl-carousel/owl.carousel.min.js"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('owl-carousel/ow...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\admin\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/owl-carousel/owl.carousel.min.js
+HTTP_REFERER=http://localhost/admin/noticias/create
+---
+2013/12/20 10:26:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "owl-carousel/owl.carousel.css"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('owl-carousel/ow...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\admin\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/owl-carousel/owl.carousel.css
+HTTP_REFERER=http://localhost/admin/noticias/create
+---
+2013/12/20 10:26:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "owl-carousel/owl.theme.css"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('owl-carousel/ow...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\admin\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/owl-carousel/owl.theme.css
+HTTP_REFERER=http://localhost/admin/noticias/create
+---
+2013/12/20 10:26:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "owl-carousel/owl.carousel.min.js"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('owl-carousel/ow...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\admin\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/owl-carousel/owl.carousel.min.js
+HTTP_REFERER=http://localhost/admin/noticias/create
+---
+2013/12/20 10:26:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "owl-carousel/owl.theme.css"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('owl-carousel/ow...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\admin\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/owl-carousel/owl.theme.css
+HTTP_REFERER=http://localhost/admin/noticias/create
+---
+2013/12/20 10:26:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "owl-carousel/owl.carousel.css"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('owl-carousel/ow...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\admin\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/owl-carousel/owl.carousel.css
+HTTP_REFERER=http://localhost/admin/noticias/create
+---
+2013/12/20 10:26:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "owl-carousel/owl.carousel.min.js"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('owl-carousel/ow...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\admin\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/owl-carousel/owl.carousel.min.js
+HTTP_REFERER=http://localhost/admin/noticias/create
+---
+2013/12/20 10:26:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "owl-carousel/owl.carousel.min.js"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('owl-carousel/ow...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\admin\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/owl-carousel/owl.carousel.min.js
+HTTP_REFERER=http://localhost/admin/noticias/create
+---
+2013/12/20 10:26:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "owl-carousel/owl.theme.css"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('owl-carousel/ow...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\admin\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/owl-carousel/owl.theme.css
+HTTP_REFERER=http://localhost/admin/noticias/create
+---
+2013/12/20 10:26:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "owl-carousel/owl.carousel.css"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('owl-carousel/ow...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\admin\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/owl-carousel/owl.carousel.css
+HTTP_REFERER=http://localhost/admin/noticias/create
+---
+2013/12/20 10:26:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "owl-carousel/owl.carousel.min.js"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('owl-carousel/ow...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\admin\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/owl-carousel/owl.carousel.min.js
+HTTP_REFERER=http://localhost/admin/noticias/create
+---
+2013/12/20 10:28:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "owl-carousel/owl.carousel.css"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('owl-carousel/ow...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\admin\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/owl-carousel/owl.carousel.css
+HTTP_REFERER=http://localhost/admin/noticias/create
+---
+2013/12/20 10:28:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "owl-carousel/owl.theme.css"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('owl-carousel/ow...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\admin\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/owl-carousel/owl.theme.css
+HTTP_REFERER=http://localhost/admin/noticias/create
+---
+2013/12/20 10:28:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "owl-carousel/owl.carousel.min.js"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('owl-carousel/ow...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\admin\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/owl-carousel/owl.carousel.min.js
+HTTP_REFERER=http://localhost/admin/noticias/create
+---
+2013/12/20 10:28:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "owl-carousel/owl.theme.css"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('owl-carousel/ow...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\admin\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/owl-carousel/owl.theme.css
+HTTP_REFERER=http://localhost/admin/noticias/create
+---
+2013/12/20 10:28:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "owl-carousel/owl.carousel.css"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('owl-carousel/ow...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\admin\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/owl-carousel/owl.carousel.css
+HTTP_REFERER=http://localhost/admin/noticias/create
+---
+2013/12/20 10:28:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "owl-carousel/owl.carousel.min.js"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('owl-carousel/ow...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\admin\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/owl-carousel/owl.carousel.min.js
+HTTP_REFERER=http://localhost/admin/noticias/create
+---
+2013/12/20 10:28:18 [warning] [application] Error al establecer unsafe al atributo "picture" de "Noticias".
+in C:\xampp\htdocs\admin\protected\controllers\NoticiasController.php (64)
+in C:\xampp\htdocs\admin\index.php (13)
+2013/12/20 10:28:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "owl-carousel/owl.carousel.css"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('owl-carousel/ow...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\admin\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/owl-carousel/owl.carousel.css
+HTTP_REFERER=http://localhost/admin/noticias/create
+---
+2013/12/20 10:28:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "owl-carousel/owl.theme.css"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('owl-carousel/ow...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\admin\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/owl-carousel/owl.theme.css
+HTTP_REFERER=http://localhost/admin/noticias/create
+---
+2013/12/20 10:28:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "owl-carousel/owl.carousel.min.js"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('owl-carousel/ow...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\admin\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/owl-carousel/owl.carousel.min.js
+HTTP_REFERER=http://localhost/admin/noticias/create
+---
+2013/12/20 10:28:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "owl-carousel/owl.theme.css"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('owl-carousel/ow...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\admin\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/owl-carousel/owl.theme.css
+HTTP_REFERER=http://localhost/admin/noticias/create
+---
+2013/12/20 10:28:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "owl-carousel/owl.carousel.css"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('owl-carousel/ow...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\admin\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/owl-carousel/owl.carousel.css
+HTTP_REFERER=http://localhost/admin/noticias/create
+---
+2013/12/20 10:28:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "owl-carousel/owl.carousel.min.js"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('owl-carousel/ow...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\admin\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/owl-carousel/owl.carousel.min.js
+HTTP_REFERER=http://localhost/admin/noticias/create
+---
+2013/12/20 10:28:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "owl-carousel/owl.theme.css"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('owl-carousel/ow...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\admin\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/owl-carousel/owl.theme.css
+HTTP_REFERER=http://localhost/admin/noticias/create
+---
+2013/12/20 10:28:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "owl-carousel/owl.carousel.css"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('owl-carousel/ow...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\admin\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/owl-carousel/owl.carousel.css
+HTTP_REFERER=http://localhost/admin/noticias/create
+---
+2013/12/20 10:28:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "owl-carousel/owl.carousel.min.js"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('owl-carousel/ow...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\admin\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/owl-carousel/owl.carousel.min.js
+HTTP_REFERER=http://localhost/admin/noticias/create
+---
+2013/12/20 10:29:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "owl-carousel/owl.carousel.css"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('owl-carousel/ow...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\admin\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/owl-carousel/owl.carousel.css
+HTTP_REFERER=http://localhost/admin/noticias/create
+---
+2013/12/20 10:29:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "owl-carousel/owl.theme.css"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('owl-carousel/ow...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\admin\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/owl-carousel/owl.theme.css
+HTTP_REFERER=http://localhost/admin/noticias/create
+---
+2013/12/20 10:29:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "owl-carousel/owl.carousel.min.js"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('owl-carousel/ow...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\admin\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/owl-carousel/owl.carousel.min.js
+HTTP_REFERER=http://localhost/admin/noticias/create
+---
+2013/12/20 10:29:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "owl-carousel/owl.carousel.css"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('owl-carousel/ow...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\admin\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/owl-carousel/owl.carousel.css
+HTTP_REFERER=http://localhost/admin/noticias
+---
+2013/12/20 10:29:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "owl-carousel/owl.theme.css"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('owl-carousel/ow...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\admin\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/owl-carousel/owl.theme.css
+HTTP_REFERER=http://localhost/admin/noticias
+---
+2013/12/20 10:29:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "owl-carousel/owl.carousel.min.js"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('owl-carousel/ow...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\admin\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/owl-carousel/owl.carousel.min.js
+HTTP_REFERER=http://localhost/admin/noticias
+---
+2013/12/20 10:29:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "owl-carousel/owl.carousel.css"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('owl-carousel/ow...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\admin\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/owl-carousel/owl.carousel.css
+HTTP_REFERER=http://localhost/admin/noticias/admin
+---
+2013/12/20 10:29:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "owl-carousel/owl.theme.css"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('owl-carousel/ow...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\admin\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/owl-carousel/owl.theme.css
+HTTP_REFERER=http://localhost/admin/noticias/admin
+---
+2013/12/20 10:29:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "owl-carousel/owl.carousel.min.js"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('owl-carousel/ow...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\admin\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/owl-carousel/owl.carousel.min.js
+HTTP_REFERER=http://localhost/admin/noticias/admin
+---
+2013/12/20 10:29:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "owl-carousel/owl.theme.css"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('owl-carousel/ow...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\admin\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/owl-carousel/owl.theme.css
+HTTP_REFERER=http://localhost/admin/noticias/update/1
+---
+2013/12/20 10:29:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "owl-carousel/owl.carousel.css"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('owl-carousel/ow...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\admin\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/owl-carousel/owl.carousel.css
+HTTP_REFERER=http://localhost/admin/noticias/update/1
+---
+2013/12/20 10:29:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "owl-carousel/owl.carousel.min.js"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('owl-carousel/ow...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\admin\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/owl-carousel/owl.carousel.min.js
+HTTP_REFERER=http://localhost/admin/noticias/update/1
+---
+2013/12/20 10:29:52 [warning] [application] Error al establecer unsafe al atributo "picture" de "Noticias".
+in C:\xampp\htdocs\admin\protected\controllers\NoticiasController.php (88)
+in C:\xampp\htdocs\admin\index.php (13)
+2013/12/20 10:29:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "owl-carousel/owl.carousel.css"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('owl-carousel/ow...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\admin\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/owl-carousel/owl.carousel.css
+HTTP_REFERER=http://localhost/admin/noticias/update/1
+---
+2013/12/20 10:29:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "owl-carousel/owl.theme.css"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('owl-carousel/ow...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\admin\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/owl-carousel/owl.theme.css
+HTTP_REFERER=http://localhost/admin/noticias/update/1
+---
+2013/12/20 10:29:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "owl-carousel/owl.carousel.min.js"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('owl-carousel/ow...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\admin\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/owl-carousel/owl.carousel.min.js
+HTTP_REFERER=http://localhost/admin/noticias/update/1
+---
+2013/12/20 10:29:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "owl-carousel/owl.carousel.min.js"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('owl-carousel/ow...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\admin\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/owl-carousel/owl.carousel.min.js
+HTTP_REFERER=http://localhost/admin/noticias/update/1
+---
+2013/12/20 10:29:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "owl-carousel/owl.theme.css"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('owl-carousel/ow...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\admin\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/owl-carousel/owl.theme.css
+HTTP_REFERER=http://localhost/admin/noticias
+---
+2013/12/20 10:29:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "owl-carousel/owl.carousel.css"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('owl-carousel/ow...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\admin\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/owl-carousel/owl.carousel.css
+HTTP_REFERER=http://localhost/admin/noticias
+---
+2013/12/20 10:29:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "owl-carousel/owl.carousel.min.js"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('owl-carousel/ow...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\admin\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/owl-carousel/owl.carousel.min.js
+HTTP_REFERER=http://localhost/admin/noticias
+---
+2013/12/20 10:31:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "owl-carousel/owl.carousel.css"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('owl-carousel/ow...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\admin\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/owl-carousel/owl.carousel.css
+HTTP_REFERER=http://localhost/admin/noticias/create
+---
+2013/12/20 10:31:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "owl-carousel/owl.theme.css"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('owl-carousel/ow...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\admin\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/owl-carousel/owl.theme.css
+HTTP_REFERER=http://localhost/admin/noticias/create
+---
+2013/12/20 10:31:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "owl-carousel/owl.carousel.min.js"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('owl-carousel/ow...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\admin\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/owl-carousel/owl.carousel.min.js
+HTTP_REFERER=http://localhost/admin/noticias/create
+---

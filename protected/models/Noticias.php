@@ -14,6 +14,7 @@ class Noticias extends CActiveRecord
 	/**
 	 * @return string the associated database table name
 	 */
+         public $picture;
 	public function tableName()
 	{
 		return 'noticias';
@@ -27,7 +28,8 @@ class Noticias extends CActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			array('titulo, cuerpo, fecha', 'required'),
+                        array('picture', 'file', 'types'=>'jpg, png'),
+			array('titulo, cuerpo, fecha, picture', 'required'),
 			array('titulo', 'length', 'max'=>100),
 			// The following rule is used by search().
 			// @todo Please remove those attributes that should not be searched.

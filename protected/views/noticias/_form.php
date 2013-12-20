@@ -4,7 +4,7 @@
 /* @var $form CActiveForm */
 ?>
 
-<div class="form">
+<div class="col-lg-10 col-md-10 col-md-12 col-xs-12">
 
 <?php $form=$this->beginWidget('CActiveForm', array(
 	'id'=>'noticias-form',
@@ -30,8 +30,27 @@
 
 	<div class="form-group">
 		<?php echo $form->labelEx($model,'fecha'); ?>
-		<?php echo $form->textField($model,'fecha'); ?>
+            
+                <?php
+                    $this->widget("zii.widgets.jui.CJuiDatePicker",array(
+                        "attribute"=>"fecha",
+                        "model"=>$model,
+                        "language"=>"es",
+                        "options"=>array(
+                            "dateFormat"=>"dd-mm-yy",
+                        ),
+                        'htmlOptions' => array(
+                            'class' => 'form-control',
+                        ),
+                    ));
+                ?>
 		<?php echo $form->error($model,'fecha', array('class'=>'help-block')); ?>
+	</div>
+    
+        <div class="form-group">
+		<?php echo $form->labelEx($model,'picture'); ?>
+		<?php echo $form->fileField($model,'picture',array()); ?>
+		<?php echo $form->error($model,'picture', array('class'=>'help-block')); ?>
 	</div>
 
 	<div class="form-group">

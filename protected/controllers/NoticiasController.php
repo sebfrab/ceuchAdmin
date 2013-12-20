@@ -28,7 +28,7 @@ class NoticiasController extends Controller
 	{
 		return array(
 			array('allow', // allow authenticated user to perform 'create' and 'update' actions
-				'actions'=>array('create','update','create','update','admin','delete',),
+				'actions'=>array('create','update','create','update','admin','delete','index','view'),
 				'users'=>array('@'),
 			),
 			array('deny',  // deny all users
