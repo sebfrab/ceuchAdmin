@@ -8,13 +8,13 @@
  * @property string $titulo
  * @property string $cuerpo
  * @property string $fecha
+ * @property string $img
  */
 class Noticias extends CActiveRecord
 {
 	/**
 	 * @return string the associated database table name
 	 */
-         public $picture;
 	public function tableName()
 	{
 		return 'noticias';
@@ -28,12 +28,13 @@ class Noticias extends CActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-                        array('picture', 'file', 'types'=>'jpg, png'),
-			array('titulo, cuerpo, fecha, picture', 'required'),
+			array('titulo, cuerpo, fecha, img', 'required'),
 			array('titulo', 'length', 'max'=>100),
+			array('img', 'length', 'max'=>150),
+                        array('img', 'file', 'types'=>'jpg, png'),
 			// The following rule is used by search().
 			// @todo Please remove those attributes that should not be searched.
-			array('idnoticias, titulo, cuerpo, fecha', 'safe', 'on'=>'search'),
+			array('idnoticias, titulo, cuerpo, fecha, img', 'safe', 'on'=>'search'),
 		);
 	}
 
@@ -58,6 +59,7 @@ class Noticias extends CActiveRecord
 			'titulo' => 'Titulo',
 			'cuerpo' => 'Cuerpo',
 			'fecha' => 'Fecha',
+			'img' => 'Imagen',
 		);
 	}
 
@@ -83,6 +85,7 @@ class Noticias extends CActiveRecord
 		$criteria->compare('titulo',$this->titulo,true);
 		$criteria->compare('cuerpo',$this->cuerpo,true);
 		$criteria->compare('fecha',$this->fecha,true);
+		$criteria->compare('img',$this->img,true);
 
 		return new CActiveDataProvider($this, array(
 			'criteria'=>$criteria,

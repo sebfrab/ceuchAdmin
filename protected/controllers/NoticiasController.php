@@ -62,6 +62,29 @@ class NoticiasController extends Controller
 		if(isset($_POST['Noticias']))
 		{
 			$model->attributes=$_POST['Noticias'];
+                        $fecha = Date('Y-m-d h:i:s');
+                        $model->fecha = $fecha;
+                        
+                        
+                        ////////////////////////////////////////////////////////////////////
+                        $path_picture = realpath( Yii::app( )->getBasePath( )."/../../ceuch/images/news" )."/";//ruta final de la imagen
+                        $rnd = rand(0,9999);  // generate random number between 0-9999
+                        $rnd = "ceuchNews".$rnd;
+                        $uploadedFile=CUploadedFile::getInstance($model,'img');
+                        $fileName = "{$rnd}-{$uploadedFile}";  // random number + file name or puedes usar: $fileName=$uploadedFile->getName();
+
+                        if(!empty($uploadedFile))  // check if uploaded file is set or not
+                        {
+                            //$uploadedFile->saveAs(Yii::app()->basePath.'/../banner/'.$fileName);  // image will uplode to rootDirectory/banner/
+                            $uploadedFile->saveAs($path_picture.$fileName);
+                            $model->img= $fileName;
+                        }
+                        ////////////////////////////////////////////////////////////////////
+                        
+                        
+                        
+                        
+                        
 			if($model->save())
 				$this->redirect(array('view','id'=>$model->idnoticias));
 		}
