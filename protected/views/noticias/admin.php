@@ -4,7 +4,6 @@
 
 
 $this->menu=array(
-        array('label'=>'Noticias', 'url'=>array('admin'),'itemOptions' => array('class' => 'active')),
 	array('label'=>'Nueva noticia', 'url'=>array('create')),
 );
 
@@ -19,8 +18,10 @@ $this->menu=array(
 	'filter'=>$model,
 	'columns'=>array(
 		'titulo',
-		'cuerpo',
-		'fecha',
+                array(
+                    'name'=>'fecha',
+                    'value'=>'Yii::app()->dateFormatter->format("dd-MM-y",strtotime($data->fecha))',
+                ),
 		array(
                         'class'=>'CButtonColumn',
                         'htmlOptions'=>array('width'=>'90px'),

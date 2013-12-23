@@ -2,17 +2,11 @@
 /* @var $this NoticiasController */
 /* @var $model Noticias */
 
-$this->breadcrumbs=array(
-	'Noticiases'=>array('index'),
-	$model->idnoticias,
-);
-
 $this->menu=array(
-	array('label'=>'List Noticias', 'url'=>array('index')),
-	array('label'=>'Create Noticias', 'url'=>array('create')),
-	array('label'=>'Update Noticias', 'url'=>array('update', 'id'=>$model->idnoticias)),
-	array('label'=>'Delete Noticias', 'url'=>'#', 'linkOptions'=>array('submit'=>array('delete','id'=>$model->idnoticias),'confirm'=>'Are you sure you want to delete this item?')),
-	array('label'=>'Manage Noticias', 'url'=>array('admin')),
+	array('label'=>'Nueva Noticia', 'url'=>array('create')),
+	array('label'=>'Actualizar Noticia', 'url'=>array('update', 'id'=>$model->idnoticias)),
+	array('label'=>'Eliminar Noticia', 'url'=>'#', 'linkOptions'=>array('submit'=>array('delete','id'=>$model->idnoticias),'confirm'=>'Are you sure you want to delete this item?')),
+	array('label'=>'Mantenedor Noticias', 'url'=>array('admin')),
 );
 ?>
 
@@ -24,6 +18,14 @@ $this->menu=array(
 		'idnoticias',
 		'titulo',
 		'cuerpo',
-		'fecha',
+		array(
+                    'name'=>'fecha',
+                    'value'=>Yii::app()->dateFormatter->format("dd-MM-y",strtotime($model->fecha)),
+                ),
+                array(
+                    'label'=>'Imagen',
+                    'type'=>'raw',
+                    'value'=> CHtml::image('/../../ceuch/images/news/'.$model->img,"News ceuch",array("width"=>150, 'title'=>$model->img)),
+                   ),
 	),
 )); ?>

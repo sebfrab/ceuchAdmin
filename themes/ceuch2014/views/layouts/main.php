@@ -54,7 +54,7 @@
                                         ),
                                         'items'=>array(
                                                 array('label'=>'Home', 'url'=>array('/site/index'), 'visible'=>!Yii::app()->user->isGuest),
-                                                array('label'=>'Noticias', 'url'=>array('/noticias'), 'visible'=>!Yii::app()->user->isGuest),
+                                                array('label'=>'Noticias', 'url'=>array('/noticias/admin'), 'visible'=>!Yii::app()->user->isGuest),
                                                 array('label'=>'Logout ('.Yii::app()->user->name.')', 'url'=>array('/site/logout'), 'visible'=>!Yii::app()->user->isGuest)
                                         ),
                                 )); ?>
