@@ -1,23 +1,22 @@
 <?php
 
 /**
- * This is the model class for table "noticias".
+ * This is the model class for table "compromisos".
  *
- * The followings are the available columns in table 'noticias':
- * @property string $idnoticias
+ * The followings are the available columns in table 'compromisos':
+ * @property string $idcompromisos
  * @property string $titulo
  * @property string $cuerpo
  * @property string $fecha
- * @property string $img
  */
-class Noticias extends CActiveRecord
+class Compromisos extends CActiveRecord
 {
 	/**
 	 * @return string the associated database table name
 	 */
 	public function tableName()
 	{
-		return 'noticias';
+		return 'compromisos';
 	}
 
 	/**
@@ -28,13 +27,11 @@ class Noticias extends CActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			array('titulo, cuerpo, img', 'required'),
-			array('titulo', 'length', 'max'=>100),
-			array('img', 'length', 'max'=>150),
-                        array('img', 'file', 'types'=>'jpg, png'),
+			array('titulo, cuerpo, fecha', 'required'),
+			array('titulo', 'length', 'max'=>120),
 			// The following rule is used by search().
 			// @todo Please remove those attributes that should not be searched.
-			array('idnoticias, titulo, cuerpo, fecha, img', 'safe', 'on'=>'search'),
+			array('idcompromisos, titulo, cuerpo, fecha', 'safe', 'on'=>'search'),
 		);
 	}
 
@@ -55,11 +52,10 @@ class Noticias extends CActiveRecord
 	public function attributeLabels()
 	{
 		return array(
-			'idnoticias' => 'Idnoticias',
+			'idcompromisos' => 'Idcompromisos',
 			'titulo' => 'Titulo',
 			'cuerpo' => 'Cuerpo',
 			'fecha' => 'Fecha',
-			'img' => 'Imagen',
 		);
 	}
 
@@ -81,11 +77,10 @@ class Noticias extends CActiveRecord
 
 		$criteria=new CDbCriteria;
 
-		$criteria->compare('idnoticias',$this->idnoticias,true);
+		$criteria->compare('idcompromisos',$this->idcompromisos,true);
 		$criteria->compare('titulo',$this->titulo,true);
 		$criteria->compare('cuerpo',$this->cuerpo,true);
 		$criteria->compare('fecha',$this->fecha,true);
-		$criteria->compare('img',$this->img,true);
 
 		return new CActiveDataProvider($this, array(
 			'criteria'=>$criteria,
@@ -96,7 +91,7 @@ class Noticias extends CActiveRecord
 	 * Returns the static model of the specified AR class.
 	 * Please note that you should have this exact method in all your CActiveRecord descendants!
 	 * @param string $className active record class name.
-	 * @return Noticias the static model class
+	 * @return Compromisos the static model class
 	 */
 	public static function model($className=__CLASS__)
 	{

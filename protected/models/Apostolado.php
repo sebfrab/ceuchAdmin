@@ -1,23 +1,40 @@
 <?php
 
 /**
- * This is the model class for table "noticias".
+ * This is the model class for table "apostolado".
  *
- * The followings are the available columns in table 'noticias':
- * @property string $idnoticias
+ * The followings are the available columns in table 'apostolado':
+ * @property string $idapostolado
+ * @property string $ano
+ * @property string $mes
  * @property string $titulo
- * @property string $cuerpo
- * @property string $fecha
- * @property string $img
+ * @property string $texto
+ * @property integer $tipo
  */
-class Noticias extends CActiveRecord
+class Apostolado extends CActiveRecord
 {
 	/**
 	 * @return string the associated database table name
 	 */
+        public static $tipos=array('0'=>'General','1'=>'Misionero');
+        public static $meses=array(
+            '1'=>'Enero',
+            '2'=>'Febrero',
+            '3'=>'Marzo',
+            '4'=>'Abril',
+            '5'=>'Mayo',
+            '6'=>'Junio',
+            '7'=>'Julio',
+            '8'=>'Agosto',
+            '9'=>'Septiembre',
+            '10'=>'Octubre',
+            '11'=>'Noviembre',
+            '12'=>'Diciembre',
+            );
+    
 	public function tableName()
 	{
-		return 'noticias';
+		return 'apostolado';
 	}
 
 	/**
@@ -28,13 +45,15 @@ class Noticias extends CActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			array('titulo, cuerpo, img', 'required'),
-			array('titulo', 'length', 'max'=>100),
-			array('img', 'length', 'max'=>150),
-                        array('img', 'file', 'types'=>'jpg, png'),
+			array('ano, mes, titulo, texto, tipo', 'required'),
+			array('tipo', 'numerical', 'integerOnly'=>true),
+			array('mes', 'length', 'max'=>10),
+                        array('ano', 'length', 'max'=>4),
+			array('titulo', 'length', 'max'=>50),
+                        array('ano','numerical', 'integerOnly'=>true),
 			// The following rule is used by search().
 			// @todo Please remove those attributes that should not be searched.
-			array('idnoticias, titulo, cuerpo, fecha, img', 'safe', 'on'=>'search'),
+			array('idapostolado, ano, mes, titulo, texto, tipo', 'safe', 'on'=>'search'),
 		);
 	}
 
@@ -55,11 +74,12 @@ class Noticias extends CActiveRecord
 	public function attributeLabels()
 	{
 		return array(
-			'idnoticias' => 'Idnoticias',
+			'idapostolado' => 'Idapostolado',
+			'ano' => 'Año',
+			'mes' => 'Mes',
 			'titulo' => 'Titulo',
-			'cuerpo' => 'Cuerpo',
-			'fecha' => 'Fecha',
-			'img' => 'Imagen',
+			'texto' => 'Texto',
+			'tipo' => 'Tipo',
 		);
 	}
 
@@ -81,11 +101,12 @@ class Noticias extends CActiveRecord
 
 		$criteria=new CDbCriteria;
 
-		$criteria->compare('idnoticias',$this->idnoticias,true);
+		$criteria->compare('idapostolado',$this->idapostolado,true);
+		$criteria->compare('ano',$this->ano,true);
+		$criteria->compare('mes',$this->mes,true);
 		$criteria->compare('titulo',$this->titulo,true);
-		$criteria->compare('cuerpo',$this->cuerpo,true);
-		$criteria->compare('fecha',$this->fecha,true);
-		$criteria->compare('img',$this->img,true);
+		$criteria->compare('texto',$this->texto,true);
+		$criteria->compare('tipo',$this->tipo);
 
 		return new CActiveDataProvider($this, array(
 			'criteria'=>$criteria,
@@ -96,10 +117,22 @@ class Noticias extends CActiveRecord
 	 * Returns the static model of the specified AR class.
 	 * Please note that you should have this exact method in all your CActiveRecord descendants!
 	 * @param string $className active record class name.
-	 * @return Noticias the static model class
+	 * @return Apostolado the static model class
 	 */
 	public static function model($className=__CLASS__)
 	{
 		return parent::model($className);
 	}
+        
+        public static function getTipos($key=null){
+            if($key!==null)
+                return self::$tipos[$key];
+            return self::$tipos;
+        }
+        
+        public static function getMeses($key=null){
+            if($key!==null)
+                return self::$meses[$key];
+            return self::$meses;
+        }
 }

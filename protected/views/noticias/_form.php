@@ -8,8 +8,12 @@
 
 <?php $form=$this->beginWidget('CActiveForm', array(
 	'id'=>'noticias-form',
-        'htmlOptions' => array('enctype' => 'multipart/form-data'),
 	'enableAjaxValidation'=>false,
+        'enableClientValidation' => true,
+        'htmlOptions' => array('enctype' => 'multipart/form-data'),
+        'clientOptions' => array(
+            'validateOnSubmit' => true,
+        ),
 )); ?>
 
 
@@ -27,7 +31,7 @@
     
         <div class="form-group">
 		<?php echo $form->labelEx($model,'img'); ?>
-		<?php echo $form->fileField($model,'img',array()); ?>
+		<?php echo $form->fileField($model,'img'); ?>
 		<?php echo $form->error($model,'img', array('class'=>'help-block')); ?>
 	</div>
     
@@ -37,12 +41,10 @@
                 <?php echo CHtml::image('/../../ceuch/images/news/'.$model->img,"News ceuch",array("width"=>150, 'title'=>$model->img)); ?>
         </div>
         <?php } ?>
-    
-    
 
 	<div class="form-group">
 		<?php echo CHtml::submitButton($model->isNewRecord ? 'Ingresar' : 'Guardar',array('class'=>'btn btn-primary')); ?>
-
+        </div>
 <?php $this->endWidget(); ?>
 
 </div><!-- form -->

@@ -15,7 +15,7 @@ class NoticiasController extends Controller
 	{
 		return array(
 			'accessControl', // perform access control for CRUD operations
-			//'postOnly + delete', // we only allow deletion via POST request
+			'postOnly + delete', // we only allow deletion via POST request
 		);
 	}
 
@@ -55,33 +55,36 @@ class NoticiasController extends Controller
 	public function actionCreate()
 	{
 		$model=new Noticias;
-
-		// Uncomment the following line if AJAX validation is needed
+                
+		//$this->performAjaxValidationSubmit($model);
 		// $this->performAjaxValidation($model);
 
 		if(isset($_POST['Noticias']))
 		{
-			$model->attributes=$_POST['Noticias'];
-                        $fecha = Date('Y-m-d h:i:s');
-                        $model->fecha = $fecha;
-                        
-                        ////////////////////////////////////////////////////////////////////
-                        $path_picture = realpath( Yii::app( )->getBasePath( )."/../../ceuch/images/news" )."/";//ruta final de la imagen
-                        $rnd = rand(0,9999);  // generate random number between 0-9999
-                        $rnd = "ceuchNews".$rnd;
-                        $uploadedFile=CUploadedFile::getInstance($model,'img');
-                        $fileName = "{$rnd}-{$uploadedFile}";  // random number + file name or puedes usar: $fileName=$uploadedFile->getName();
+                    $model->attributes=$_POST['Noticias'];
+                    
+                    $fecha = Date('Y-m-d h:i:s');
+                    $model->fecha = $fecha;
 
-                        if(!empty($uploadedFile))  // check if uploaded file is set or not
-                        {
-                            //$uploadedFile->saveAs(Yii::app()->basePath.'/../banner/'.$fileName);  // image will uplode to rootDirectory/banner/
-                            $uploadedFile->saveAs($path_picture.$fileName);
-                            $model->img= $fileName;
-                        }
-                        ////////////////////////////////////////////////////////////////////
-                        
-			if($model->save())
-				$this->redirect(array('view','id'=>$model->idnoticias));
+                    ////////////////////////////////////////////////////////////////////
+                    $path_picture = realpath( Yii::app( )->getBasePath( )."/../../ceuch/images/news" )."/";//ruta final de la imagen
+                    $rnd = rand(0,9999);  // generate random number between 0-9999
+                    $rnd = "ceuchNews".$rnd;
+                    $uploadedFile=CUploadedFile::getInstance($model,'img');
+                    $fileName = "{$rnd}-{$uploadedFile}";  // random number + file name or puedes usar: $fileName=$uploadedFile->getName();
+
+                    if(!empty($uploadedFile))  // check if uploaded file is set or not
+                    {
+                        //$uploadedFile->saveAs(Yii::app()->basePath.'/../banner/'.$fileName);  // image will uplode to rootDirectory/banner/
+                        $uploadedFile->saveAs($path_picture.$fileName);
+                        $model->img= $fileName;
+                    }
+                    ////////////////////////////////////////////////////////////////////
+                    
+
+                    if($model->save())
+                        $this->redirect(array('view','id'=>$model->idnoticias));
+                    
 		}
 
 		$this->render('create',array(
@@ -197,6 +200,19 @@ class NoticiasController extends Controller
 		{
 			echo CActiveForm::validate($model);
 			Yii::app()->end();
+		}
+	}
+        
+        protected function performAjaxValidationSubmit($model)
+	{
+		if(isset($_POST['ajax']) && $_POST['ajax']==='noticias-form')
+		{
+			$errors = CActiveForm::validate($model);
+                        if ($errors != '[]')
+                        {
+                            echo $errors;
+                            Yii::app()->end();
+                        }
 		}
 	}
 }
