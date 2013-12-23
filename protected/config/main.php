@@ -7,7 +7,7 @@
 // CWebApplication properties can be configured here.
 return array(
 	'basePath'=>dirname(__FILE__).DIRECTORY_SEPARATOR.'..',
-	'name'=>'Cruzada Eucarística',
+	'name'=>'Ceuch admin',
         'sourceLanguage' => 'es',
         'language'=>'es',
         'theme'=>'ceuch2014',
