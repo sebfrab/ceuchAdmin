@@ -38,7 +38,7 @@
         <?php if(!$model->isNewRecord){ //mostramos la imagen?>
         <div class="form-group">
                 <?php //echo CHtml::image(Yii::app()->params['file_tours'].$model->fotoprincipal,"fotoprincipal",array("width"=>200, 'title'=>$model->fotoprincipal)); ?>
-                <?php echo CHtml::image('/../../ceuch/images/news/'.$model->img,"News ceuch",array("width"=>150, 'title'=>$model->img)); ?>
+                <?php echo CHtml::image('../../../images/news/'.$model->img,"News ceuch",array("width"=>150, 'title'=>$model->img)); ?>
         </div>
         <?php } ?>
 

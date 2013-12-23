@@ -67,7 +67,7 @@ class NoticiasController extends Controller
                     $model->fecha = $fecha;
 
                     ////////////////////////////////////////////////////////////////////
-                    $path_picture = realpath( Yii::app( )->getBasePath( )."/../../ceuch/images/news" )."/";//ruta final de la imagen
+                    $path_picture = "../images/news/";//ruta final de la imagen
                     $rnd = rand(0,9999);  // generate random number between 0-9999
                     $rnd = "ceuchNews".$rnd;
                     $uploadedFile=CUploadedFile::getInstance($model,'img');
@@ -110,7 +110,7 @@ class NoticiasController extends Controller
                         
                         
                         ////////////////////////////////////////////////////////////////////
-                        $path_picture = realpath( Yii::app( )->getBasePath( )."/../../ceuch/images/news" )."/";//ruta final de la imagen
+                        $path_picture = "../images/news/";//ruta final de la imagen
                         $rnd = rand(0,9999);  // generate random number between 0-9999
                         $rnd = "ceuchNews".$rnd;
                         $uploadedFile=CUploadedFile::getInstance($model,'img');
@@ -141,7 +141,7 @@ class NoticiasController extends Controller
 	public function actionDelete($id)
 	{
                 $model = $this->loadModel($id);
-                unlink('../ceuch/images/news/'.$model->img);
+                unlink("../images/news/$model->img");
                 $this->loadModel($id)->delete();
                 
 		// if AJAX request (triggered by deletion via admin grid view), we should not redirect the browser

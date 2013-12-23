@@ -24,7 +24,7 @@ $this->menu=array(
                 array(
                     'label'=>'Imagen',
                     'type'=>'raw',
-                    'value'=> CHtml::image('/../../ceuch/images/news/'.$model->img,"News ceuch",array("width"=>150, 'title'=>$model->img)),
+                    'value'=> CHtml::image('../../images/news/'.$model->img,"News ceuch",array("width"=>150, 'title'=>$model->img)),
                    ),
 	),
 )); ?>

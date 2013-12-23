@@ -16324,3 +16324,351 @@ Stack trace:
 REQUEST_URI=/admin/owl-carousel/owl.carousel.min.js
 HTTP_REFERER=http://localhost/admin/
 ---
+2013/12/23 19:04:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "owl-carousel/owl.carousel.min.js"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('owl-carousel/ow...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\admin\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/owl-carousel/owl.carousel.min.js
+HTTP_REFERER=http://localhost/admin/
+---
+2013/12/23 22:09:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "owl-carousel/owl.carousel.min.js"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('owl-carousel/ow...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\admin\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/owl-carousel/owl.carousel.min.js
+HTTP_REFERER=http://localhost/admin/
+---
+2013/12/23 22:12:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "owl-carousel/owl.carousel.min.js"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('owl-carousel/ow...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ceuch\admin\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ceuch/admin/owl-carousel/owl.carousel.min.js
+HTTP_REFERER=http://localhost/ceuch/admin/
+---
+2013/12/23 22:12:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "owl-carousel/owl.carousel.min.js"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('owl-carousel/ow...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ceuch\admin\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ceuch/admin/owl-carousel/owl.carousel.min.js
+HTTP_REFERER=http://localhost/ceuch/admin/
+---
+2013/12/23 22:12:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "owl-carousel/owl.carousel.min.js"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('owl-carousel/ow...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ceuch\admin\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ceuch/admin/owl-carousel/owl.carousel.min.js
+HTTP_REFERER=http://localhost/ceuch/admin/noticias/admin
+---
+2013/12/23 22:12:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "owl-carousel/owl.carousel.min.js"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('owl-carousel/ow...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ceuch\admin\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ceuch/admin/owl-carousel/owl.carousel.min.js
+HTTP_REFERER=http://localhost/ceuch/admin/noticias/14
+---
+2013/12/23 22:13:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "owl-carousel/owl.carousel.min.js"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('owl-carousel/ow...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ceuch\admin\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ceuch/admin/owl-carousel/owl.carousel.min.js
+HTTP_REFERER=http://localhost/ceuch/admin/noticias/14
+---
+2013/12/23 22:13:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "owl-carousel/owl.carousel.min.js"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('owl-carousel/ow...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ceuch\admin\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ceuch/admin/owl-carousel/owl.carousel.min.js
+HTTP_REFERER=http://localhost/ceuch/admin/noticias/14
+---
+2013/12/23 22:13:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "owl-carousel/owl.carousel.min.js"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('owl-carousel/ow...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ceuch\admin\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ceuch/admin/owl-carousel/owl.carousel.min.js
+HTTP_REFERER=http://localhost/ceuch/admin/noticias/14
+---
+2013/12/23 22:13:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "owl-carousel/owl.carousel.min.js"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('owl-carousel/ow...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ceuch\admin\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ceuch/admin/owl-carousel/owl.carousel.min.js
+HTTP_REFERER=http://localhost/ceuch/admin/noticias/14
+---
+2013/12/23 22:13:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "images" solicitada.' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('images')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('images')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('noticias/images...')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\ceuch\admin\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/ceuch/admin/noticias/images/news/ceuchNews1458-Hydrangeas.jpg
+HTTP_REFERER=http://localhost/ceuch/admin/noticias/14
+---
+2013/12/23 22:13:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "owl-carousel/owl.carousel.min.js"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('owl-carousel/ow...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ceuch\admin\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ceuch/admin/owl-carousel/owl.carousel.min.js
+HTTP_REFERER=http://localhost/ceuch/admin/noticias/14
+---
+2013/12/23 22:13:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/news/ceuchNews1458-Hydrangeas.jpg"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/news/ceu...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ceuch\admin\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ceuch/admin/images/news/ceuchNews1458-Hydrangeas.jpg
+HTTP_REFERER=http://localhost/ceuch/admin/noticias/14
+---
+2013/12/23 22:13:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "owl-carousel/owl.carousel.min.js"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('owl-carousel/ow...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ceuch\admin\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ceuch/admin/owl-carousel/owl.carousel.min.js
+HTTP_REFERER=http://localhost/ceuch/admin/noticias/14
+---
+2013/12/23 22:14:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "images" solicitada.' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('images')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('images')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('noticias/images...')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\ceuch\admin\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/ceuch/admin/noticias/images/news/ceuchNews1458-Hydrangeas.jpg
+HTTP_REFERER=http://localhost/ceuch/admin/noticias/14
+---
+2013/12/23 22:14:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "owl-carousel/owl.carousel.min.js"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('owl-carousel/ow...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ceuch\admin\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ceuch/admin/owl-carousel/owl.carousel.min.js
+HTTP_REFERER=http://localhost/ceuch/admin/noticias/images/news/ceuchNews1458-Hydrangeas.jpg
+---
+2013/12/23 22:15:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "images" solicitada.' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('images')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('images')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('noticias/images...')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\ceuch\admin\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/ceuch/admin/noticias/images/news/ceuchNews1458-Hydrangeas.jpg
+HTTP_REFERER=http://localhost/ceuch/admin/noticias/14
+---
+2013/12/23 22:15:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "owl-carousel/owl.carousel.min.js"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('owl-carousel/ow...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ceuch\admin\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ceuch/admin/owl-carousel/owl.carousel.min.js
+HTTP_REFERER=http://localhost/ceuch/admin/noticias/images/news/ceuchNews1458-Hydrangeas.jpg
+---
+2013/12/23 22:15:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/news/ceuchNews1458-Hydrangeas.jpg"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/news/ceu...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ceuch\admin\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ceuch/admin/images/news/ceuchNews1458-Hydrangeas.jpg
+HTTP_REFERER=http://localhost/ceuch/admin/noticias/14
+---
+2013/12/23 22:15:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "owl-carousel/owl.carousel.min.js"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('owl-carousel/ow...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ceuch\admin\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ceuch/admin/owl-carousel/owl.carousel.min.js
+HTTP_REFERER=http://localhost/ceuch/admin/images/news/ceuchNews1458-Hydrangeas.jpg
+---
+2013/12/23 22:15:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "owl-carousel/owl.carousel.min.js"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('owl-carousel/ow...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ceuch\admin\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ceuch/admin/owl-carousel/owl.carousel.min.js
+HTTP_REFERER=http://localhost/ceuch/admin/noticias/14
+---
+2013/12/23 22:21:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "owl-carousel/owl.carousel.min.js"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('owl-carousel/ow...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ceuch\admin\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ceuch/admin/owl-carousel/owl.carousel.min.js
+HTTP_REFERER=http://localhost/ceuch/admin/
+---
+2013/12/23 22:21:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "owl-carousel/owl.carousel.min.js"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('owl-carousel/ow...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ceuch\admin\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ceuch/admin/owl-carousel/owl.carousel.min.js
+HTTP_REFERER=http://localhost/ceuch/admin/noticias/admin
+---
+2013/12/23 22:21:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "owl-carousel/owl.carousel.min.js"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('owl-carousel/ow...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ceuch\admin\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ceuch/admin/owl-carousel/owl.carousel.min.js
+HTTP_REFERER=http://localhost/ceuch/admin/noticias/14
+---
+2013/12/23 22:22:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "owl-carousel/owl.carousel.min.js"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('owl-carousel/ow...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ceuch\admin\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ceuch/admin/owl-carousel/owl.carousel.min.js
+HTTP_REFERER=http://localhost/ceuch/admin/noticias/14
+---
+2013/12/23 22:22:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "owl-carousel/owl.carousel.min.js"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('owl-carousel/ow...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ceuch\admin\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ceuch/admin/owl-carousel/owl.carousel.min.js
+HTTP_REFERER=http://localhost/ceuch/admin/noticias/update/14
+---
+2013/12/23 22:29:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "owl-carousel/owl.carousel.min.js"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('owl-carousel/ow...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ceuch\admin\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ceuch/admin/owl-carousel/owl.carousel.min.js
+HTTP_REFERER=http://localhost/ceuch/admin/compromisos/admin
+---
+2013/12/23 22:29:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "owl-carousel/owl.carousel.min.js"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('owl-carousel/ow...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ceuch\admin\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ceuch/admin/owl-carousel/owl.carousel.min.js
+HTTP_REFERER=http://localhost/ceuch/admin/compromisos/update/1
+---
+2013/12/23 22:29:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "owl-carousel/owl.carousel.min.js"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('owl-carousel/ow...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ceuch\admin\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ceuch/admin/owl-carousel/owl.carousel.min.js
+HTTP_REFERER=http://localhost/ceuch/admin/compromisos/1
+---
+2013/12/23 22:29:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "owl-carousel/owl.carousel.min.js"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('owl-carousel/ow...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ceuch\admin\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ceuch/admin/owl-carousel/owl.carousel.min.js
+HTTP_REFERER=http://localhost/ceuch/admin/compromisos/update/1
+---
+2013/12/23 22:29:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "owl-carousel/owl.carousel.min.js"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('owl-carousel/ow...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ceuch\admin\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ceuch/admin/owl-carousel/owl.carousel.min.js
+HTTP_REFERER=http://localhost/ceuch/admin/compromisos/update/1
+---
+2013/12/23 22:30:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "owl-carousel/owl.carousel.min.js"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('owl-carousel/ow...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ceuch\admin\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ceuch/admin/owl-carousel/owl.carousel.min.js
+HTTP_REFERER=http://localhost/ceuch/admin/compromisos/update/1
+---
+2013/12/23 22:30:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "owl-carousel/owl.carousel.min.js"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('owl-carousel/ow...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ceuch\admin\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ceuch/admin/owl-carousel/owl.carousel.min.js
+HTTP_REFERER=http://localhost/ceuch/admin/compromisos/1
+---
+2013/12/23 22:30:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "owl-carousel/owl.carousel.min.js"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('owl-carousel/ow...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ceuch\admin\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ceuch/admin/owl-carousel/owl.carousel.min.js
+HTTP_REFERER=http://localhost/ceuch/admin/compromisos/update/1
+---
+2013/12/23 22:30:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "owl-carousel/owl.carousel.min.js"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('owl-carousel/ow...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ceuch\admin\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ceuch/admin/owl-carousel/owl.carousel.min.js
+HTTP_REFERER=http://localhost/ceuch/admin/compromisos/update/1
+---
+2013/12/23 22:30:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "owl-carousel/owl.carousel.min.js"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('owl-carousel/ow...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ceuch\admin\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ceuch/admin/owl-carousel/owl.carousel.min.js
+HTTP_REFERER=http://localhost/ceuch/admin/compromisos/1
+---
+2013/12/23 22:30:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "owl-carousel/owl.carousel.min.js"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('owl-carousel/ow...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ceuch\admin\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ceuch/admin/owl-carousel/owl.carousel.min.js
+HTTP_REFERER=http://localhost/ceuch/admin/apostolado/admin
+---
+2013/12/23 22:30:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "owl-carousel/owl.carousel.min.js"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('owl-carousel/ow...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ceuch\admin\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ceuch/admin/owl-carousel/owl.carousel.min.js
+HTTP_REFERER=http://localhost/ceuch/admin/noticias/admin
+---
