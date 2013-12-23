@@ -58,9 +58,9 @@
                                 )); ?>
                                 
                                 <ul id="redesSociales" class="visible-md visible-lg visible-sm">
-                                    <li><a href="http://www.facebook.com/ceuch" ><img src="<?php echo Yii::app()->request->baseUrl; ?>/images/facebook.png" /></a></li>
-                                    <li><a href="http://twitter.com/#!/ceuchelsol" ><img src="<?php echo Yii::app()->request->baseUrl; ?>/images/twitter.png" /></a></li>
-                                    <li><a href="http://www.youtube.com/user/ceuchelsol" ><img src="<?php echo Yii::app()->request->baseUrl; ?>/images/youtube.png" /></a></li>
+                                    <li><a target="_blank" href="http://www.facebook.com/ceuch" ><img src="<?php echo Yii::app()->request->baseUrl; ?>/images/facebook.png" /></a></li>
+                                    <li><a target="_blank" href="http://twitter.com/#!/ceuchelsol" ><img src="<?php echo Yii::app()->request->baseUrl; ?>/images/twitter.png" /></a></li>
+                                    <li><a target="_blank" href="http://www.youtube.com/user/ceuchelsol" ><img src="<?php echo Yii::app()->request->baseUrl; ?>/images/youtube.png" /></a></li>
                                 </ul>
                             </div>
                         </div>
