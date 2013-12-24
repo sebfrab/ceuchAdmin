@@ -83,7 +83,7 @@
                     <div id="author" class="col-lg-3">
                         <a href="#" title="&#191; y por qu&eacute; no &#63; / seb.frab@gmail.com">
                             <p>
-                                UTFSM 
+                                ¿y por qué no? 
                                 <p style="font-weight: bold; font-size: 12px;">Sebasti&aacute;n Franco</p>
                             </p>
                         </a>
