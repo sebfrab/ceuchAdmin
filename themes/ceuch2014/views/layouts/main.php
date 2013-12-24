@@ -20,6 +20,8 @@
         <!-- Add fancyBox -->
         <link rel="stylesheet" href="<?php echo Yii::app()->request->baseUrl ?>/js/fancybox/jquery.fancybox.css" type="text/css" media="screen" />
         
+        <?php Yii::app()->clientScript->registerCoreScript('jquery'); ?>
+        
 </head>
 
 <body>
