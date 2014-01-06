@@ -89,6 +89,7 @@ class NoticiasController extends Controller
 
 		$this->render('create',array(
 			'model'=>$model,
+                        'url'=>'noticias/create',
 		));
 	}
 
@@ -130,6 +131,7 @@ class NoticiasController extends Controller
 
 		$this->render('update',array(
 			'model'=>$model,
+                        'url'=>'update/create',
 		));
 	}
 

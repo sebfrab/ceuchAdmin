@@ -16903,3 +16903,256 @@ Stack trace:
 REQUEST_URI=/ceuch/admin/owl-carousel/owl.carousel.min.js
 HTTP_REFERER=http://localhost/ceuch/admin/
 ---
+2014/01/06 19:57:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "owl-carousel/owl.carousel.min.js"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('owl-carousel/ow...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ceuch\admin\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ceuch/admin/owl-carousel/owl.carousel.min.js
+HTTP_REFERER=http://localhost/ceuch/admin/
+---
+2014/01/06 19:58:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "owl-carousel/owl.carousel.min.js"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('owl-carousel/ow...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ceuch\admin\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ceuch/admin/owl-carousel/owl.carousel.min.js
+HTTP_REFERER=http://localhost/ceuch/admin/
+---
+2014/01/06 19:58:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "owl-carousel/owl.carousel.min.js"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('owl-carousel/ow...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ceuch\admin\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ceuch/admin/owl-carousel/owl.carousel.min.js
+HTTP_REFERER=http://localhost/ceuch/admin/noticias/admin
+---
+2014/01/06 19:58:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "owl-carousel/owl.carousel.min.js"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('owl-carousel/ow...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ceuch\admin\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ceuch/admin/owl-carousel/owl.carousel.min.js
+HTTP_REFERER=http://localhost/ceuch/admin/site/index
+---
+2014/01/06 19:58:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "owl-carousel/owl.carousel.min.js"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('owl-carousel/ow...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ceuch\admin\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ceuch/admin/owl-carousel/owl.carousel.min.js
+HTTP_REFERER=http://localhost/ceuch/admin/
+---
+2014/01/06 19:58:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "owl-carousel/owl.carousel.min.js"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('owl-carousel/ow...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ceuch\admin\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ceuch/admin/owl-carousel/owl.carousel.min.js
+HTTP_REFERER=http://localhost/ceuch/admin/compromisos/admin
+---
+2014/01/06 19:59:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "owl-carousel/owl.carousel.min.js"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('owl-carousel/ow...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ceuch\admin\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ceuch/admin/owl-carousel/owl.carousel.min.js
+HTTP_REFERER=http://localhost/ceuch/admin/noticias/admin
+---
+2014/01/06 19:59:08 [error] [php] Undefined variable: url (C:\xampp\htdocs\ceuch\admin\protected\views\noticias\create.php:12)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(869): NoticiasController->renderFile()
+#1 C:\xampp\htdocs\yii\framework\web\CController.php(782): NoticiasController->renderPartial()
+#2 C:\xampp\htdocs\ceuch\admin\protected\controllers\NoticiasController.php(92): NoticiasController->render()
+#3 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): NoticiasController->actionCreate()
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(133): NoticiasController->runAction()
+#6 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#8 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): NoticiasController->filterAccessControl()
+#9 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#10 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\xampp\htdocs\yii\framework\web\CController.php(265): NoticiasController->runActionWithFilters()
+#12 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): NoticiasController->run()
+#13 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#14 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#15 C:\xampp\htdocs\ceuch\admin\index.php(13): CWebApplication->run()
+REQUEST_URI=/ceuch/admin/noticias/create
+in C:\xampp\htdocs\ceuch\admin\protected\views\noticias\create.php (12)
+in C:\xampp\htdocs\ceuch\admin\protected\controllers\NoticiasController.php (92)
+in C:\xampp\htdocs\ceuch\admin\index.php (13)
+2014/01/06 19:59:53 [error] [php] Undefined variable: url (C:\xampp\htdocs\ceuch\admin\protected\views\noticias\create.php:12)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(869): NoticiasController->renderFile()
+#1 C:\xampp\htdocs\yii\framework\web\CController.php(782): NoticiasController->renderPartial()
+#2 C:\xampp\htdocs\ceuch\admin\protected\controllers\NoticiasController.php(92): NoticiasController->render()
+#3 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): NoticiasController->actionCreate()
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(133): NoticiasController->runAction()
+#6 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#8 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): NoticiasController->filterAccessControl()
+#9 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#10 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\xampp\htdocs\yii\framework\web\CController.php(265): NoticiasController->runActionWithFilters()
+#12 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): NoticiasController->run()
+#13 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#14 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#15 C:\xampp\htdocs\ceuch\admin\index.php(13): CWebApplication->run()
+REQUEST_URI=/ceuch/admin/noticias/create
+in C:\xampp\htdocs\ceuch\admin\protected\views\noticias\create.php (12)
+in C:\xampp\htdocs\ceuch\admin\protected\controllers\NoticiasController.php (92)
+in C:\xampp\htdocs\ceuch\admin\index.php (13)
+2014/01/06 20:00:42 [error] [php] Undefined variable: url (C:\xampp\htdocs\ceuch\admin\protected\views\noticias\create.php:12)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(869): NoticiasController->renderFile()
+#1 C:\xampp\htdocs\yii\framework\web\CController.php(782): NoticiasController->renderPartial()
+#2 C:\xampp\htdocs\ceuch\admin\protected\controllers\NoticiasController.php(92): NoticiasController->render()
+#3 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): NoticiasController->actionCreate()
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(133): NoticiasController->runAction()
+#6 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#8 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): NoticiasController->filterAccessControl()
+#9 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#10 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\xampp\htdocs\yii\framework\web\CController.php(265): NoticiasController->runActionWithFilters()
+#12 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): NoticiasController->run()
+#13 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#14 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#15 C:\xampp\htdocs\ceuch\admin\index.php(13): CWebApplication->run()
+REQUEST_URI=/ceuch/admin/noticias/create
+in C:\xampp\htdocs\ceuch\admin\protected\views\noticias\create.php (12)
+in C:\xampp\htdocs\ceuch\admin\protected\controllers\NoticiasController.php (92)
+in C:\xampp\htdocs\ceuch\admin\index.php (13)
+2014/01/06 20:00:58 [error] [php] Undefined variable: url (C:\xampp\htdocs\ceuch\admin\protected\views\noticias\create.php:12)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(869): NoticiasController->renderFile()
+#1 C:\xampp\htdocs\yii\framework\web\CController.php(782): NoticiasController->renderPartial()
+#2 C:\xampp\htdocs\ceuch\admin\protected\controllers\NoticiasController.php(92): NoticiasController->render()
+#3 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): NoticiasController->actionCreate()
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(133): NoticiasController->runAction()
+#6 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#8 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): NoticiasController->filterAccessControl()
+#9 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#10 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\xampp\htdocs\yii\framework\web\CController.php(265): NoticiasController->runActionWithFilters()
+#12 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): NoticiasController->run()
+#13 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#14 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#15 C:\xampp\htdocs\ceuch\admin\index.php(13): CWebApplication->run()
+REQUEST_URI=/ceuch/admin/noticias/create
+in C:\xampp\htdocs\ceuch\admin\protected\views\noticias\create.php (12)
+in C:\xampp\htdocs\ceuch\admin\protected\controllers\NoticiasController.php (92)
+in C:\xampp\htdocs\ceuch\admin\index.php (13)
+2014/01/06 20:02:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "owl-carousel/owl.carousel.min.js"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('owl-carousel/ow...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ceuch\admin\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ceuch/admin/owl-carousel/owl.carousel.min.js
+HTTP_REFERER=http://localhost/ceuch/admin/noticias/create
+---
+2014/01/06 20:02:21 [warning] [application] Error al establecer unsafe al atributo "img" de "Noticias".
+in C:\xampp\htdocs\ceuch\admin\protected\controllers\NoticiasController.php (64)
+in C:\xampp\htdocs\ceuch\admin\index.php (13)
+2014/01/06 20:02:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "owl-carousel/owl.carousel.min.js"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('owl-carousel/ow...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ceuch\admin\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ceuch/admin/owl-carousel/owl.carousel.min.js
+HTTP_REFERER=http://localhost/ceuch/admin/noticias/15
+---
+2014/01/06 20:02:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "owl-carousel/owl.carousel.min.js"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('owl-carousel/ow...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ceuch\admin\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ceuch/admin/owl-carousel/owl.carousel.min.js
+HTTP_REFERER=http://localhost/ceuch/admin/noticias/admin
+---
+2014/01/06 20:03:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "owl-carousel/owl.carousel.min.js"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('owl-carousel/ow...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ceuch\admin\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ceuch/admin/owl-carousel/owl.carousel.min.js
+HTTP_REFERER=http://localhost/ceuch/admin/noticias/update/10
+---
+2014/01/06 20:03:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "owl-carousel/owl.carousel.min.js"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('owl-carousel/ow...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ceuch\admin\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ceuch/admin/owl-carousel/owl.carousel.min.js
+HTTP_REFERER=http://localhost/ceuch/admin/noticias/admin
+---
+2014/01/06 20:03:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "owl-carousel/owl.carousel.min.js"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('owl-carousel/ow...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ceuch\admin\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ceuch/admin/owl-carousel/owl.carousel.min.js
+HTTP_REFERER=http://localhost/ceuch/admin/compromisos/admin
+---
+2014/01/06 20:03:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "owl-carousel/owl.carousel.min.js"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('owl-carousel/ow...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ceuch\admin\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ceuch/admin/owl-carousel/owl.carousel.min.js
+HTTP_REFERER=http://localhost/ceuch/admin/compromisos/create
+---
+2014/01/06 20:04:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "owl-carousel/owl.carousel.min.js"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('owl-carousel/ow...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ceuch\admin\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ceuch/admin/owl-carousel/owl.carousel.min.js
+HTTP_REFERER=http://localhost/ceuch/admin/compromisos/create
+---
+2014/01/06 20:05:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "owl-carousel/owl.carousel.min.js"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('owl-carousel/ow...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ceuch\admin\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ceuch/admin/owl-carousel/owl.carousel.min.js
+HTTP_REFERER=http://localhost/ceuch/admin/compromisos/create
+---
+2014/01/06 20:05:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "owl-carousel/owl.carousel.min.js"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('owl-carousel/ow...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ceuch\admin\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ceuch/admin/owl-carousel/owl.carousel.min.js
+HTTP_REFERER=http://localhost/ceuch/admin/compromisos/create
+---
+2014/01/06 20:05:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "owl-carousel/owl.carousel.min.js"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('owl-carousel/ow...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ceuch\admin\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ceuch/admin/owl-carousel/owl.carousel.min.js
+HTTP_REFERER=http://localhost/ceuch/admin/compromisos/create
+---
