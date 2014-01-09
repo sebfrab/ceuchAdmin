@@ -59,9 +59,8 @@ class CampamentoController extends Controller
 		if(isset($_POST['Campamento']))
 		{
                     $model->attributes=$_POST['Campamento'];
-                    
-                    $fecha = Date('Y-m-d h:i:s');
-                    $model->fecha = $fecha;
+                    $fecha = new DateTime(null, new DateTimeZone('Chile/Continental'));
+                    $model->fecha = $fecha->format('Y-m-d H:i:s');
                     
                     ////////////////////////////////////////////////////////////////////
                     $path_picture = "../images/campamento/";//ruta final de la imagen
