@@ -55,7 +55,7 @@
                                                 array('label'=>'Noticias', 'url'=>array('/noticias/admin'), 'visible'=>!Yii::app()->user->isGuest),
                                                 array('label'=>'Compromisos', 'url'=>array('/compromisos/admin'), 'visible'=>!Yii::app()->user->isGuest),
                                                 array('label'=>'Apostolado', 'url'=>array('/apostolado/admin'), 'visible'=>!Yii::app()->user->isGuest),
-                                                array('label'=>'Campamento', 'url'=>array('/campamento/admin'), 'visible'=>!Yii::app()->user->isGuest),
+                                                array('label'=>'Videos', 'url'=>array('/videos/admin'), 'visible'=>!Yii::app()->user->isGuest),
                                                 array('label'=>'Logout ('.Yii::app()->user->name.')', 'url'=>array('/site/logout'), 'visible'=>!Yii::app()->user->isGuest)
                                         ),
                                 )); ?>
