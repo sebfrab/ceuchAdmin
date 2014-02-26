@@ -28,7 +28,7 @@ class CompromisosController extends Controller
 	{
 		return array(
 			array('allow', // allow authenticated user to perform 'create' and 'update' actions
-				'actions'=>array('index','view', 'create','update', 'admin','delete'),
+				'actions'=>array('index','view', 'create','update', 'admin','delete', 'listAndroid'),
 				'users'=>array('@'),
 			),
 			array('deny',  // deny all users
@@ -200,4 +200,17 @@ class CompromisosController extends Controller
                         }
 		}
 	}
+       
+        /****************************************
+	 **************** ANDROID ***************
+	 ****************************************/
+        
+        public function actionListAndroid(){
+            $model = Compromisos::model()->findall(array('order'=>'idcompromisos DESC'));
+            echo CJSON::encode(array(
+                'compromisos' => $model,
+            ));
+        }
+        
+        
 }

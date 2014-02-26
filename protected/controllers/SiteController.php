@@ -90,7 +90,7 @@ class SiteController extends Controller
                     Yii::app()->end();
                 }
             }
-
+ 
             // collect user input data
             if (isset($_POST['LoginForm']))
             {
@@ -121,5 +121,35 @@ class SiteController extends Controller
 	{
 		Yii::app()->user->logout();
 		$this->redirect(Yii::app()->homeUrl);
+	}
+        
+        
+        
+        public function actionLoginAndroid()
+	{
+            $model = new LoginForm;
+
+            // collect user input data
+            if (isset($_POST['LoginForm_username']))
+            {
+                $model->username=$_POST['LoginForm_username'];
+                $model->password=$_POST['LoginForm_password'];
+                $model->rememberMe=$_POST['LoginForm_rememberMe'];
+                //$model->attributes = $_POST['LoginForm'];
+                // validate user input and redirect to the previous page if valid
+                if ($model->validate() && $model->login())
+                {
+                        echo CJSON::encode(array(
+                            'authenticated' => true,
+                            "param" => $_POST["LoginForm_username"]
+                        ));
+                        Yii::app()->end();
+                }
+            }
+
+            echo CJSON::encode(array(
+                'authenticated' => false,
+                "param" => $_POST["LoginForm_password"]
+            ));
 	}
 }
