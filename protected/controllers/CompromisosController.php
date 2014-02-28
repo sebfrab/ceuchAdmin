@@ -28,7 +28,7 @@ class CompromisosController extends Controller
 	{
 		return array(
 			array('allow', // allow authenticated user to perform 'create' and 'update' actions
-				'actions'=>array('index','view', 'create','update', 'admin','delete', 'listAndroid'),
+				'actions'=>array('index','view', 'create','update', 'admin','delete', 'listAndroid', 'deleteAndroid'),
 				'users'=>array('@'),
 			),
 			array('deny',  // deny all users
@@ -212,5 +212,13 @@ class CompromisosController extends Controller
             ));
         }
         
+        public function actionDeleteAndroid($id)
+	{
+		$this->loadModel($id)->delete();
+                echo CJSON::encode(array(
+                    'response' => true,
+                ));
+
+	}
         
 }

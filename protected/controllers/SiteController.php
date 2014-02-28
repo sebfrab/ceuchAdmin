@@ -148,8 +148,15 @@ class SiteController extends Controller
             }
 
             echo CJSON::encode(array(
-                'authenticated' => false,
-                "param" => $_POST["LoginForm_password"]
+                'authenticated' => false
             ));
+	}
+        
+        public function actionLogoutAndroid()
+	{
+		Yii::app()->user->logout();
+                echo CJSON::encode(array(
+                    'logout' => true
+                ));
 	}
 }
