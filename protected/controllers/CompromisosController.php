@@ -28,7 +28,7 @@ class CompromisosController extends Controller
 	{
 		return array(
 			array('allow', // allow authenticated user to perform 'create' and 'update' actions
-				'actions'=>array('index','view', 'create','update', 'admin','delete', 'listAndroid', 'deleteAndroid', 'createAndroid'),
+				'actions'=>array('index','view', 'create','update', 'admin','delete', 'listAndroid', 'deleteAndroid', 'createAndroid', 'updateAndroid'),
 				'users'=>array('@'),
 			),
 			array('deny',  // deny all users
@@ -251,7 +251,42 @@ class CompromisosController extends Controller
                             'response' => false,
                         ));
                 }
+	}
+        
+        public function actionUpdateAndroid($id)
+	{
+		$model=$this->loadModel($id);
+
+		if(isset($_POST['Compromiso_titulo']) && isset($_POST['Compromiso_cuerpo']) && isset($_POST['Comrpomiso_fecha']))
+		{
+                    $fecha1=$_POST['Comrpomiso_fecha'];
+                    $fecha2=date("Y-m-d",strtotime($fecha1)); 
+                    
+                    $model->titulo=$_POST['Compromiso_titulo'];
+                    $model->cuerpo=$_POST['Compromiso_cuerpo'];
+                    $model->fecha=$fecha2;
+                    
+                    if($model->save()){ 
+                        echo CJSON::encode(array(
+                            'response' => true,
+                        ));
+                        Yii::app()->end();
+                    }else{
+                        echo CJSON::encode(array(
+                            'response' => false,
+                        )); 
+                    }
+		}else{
+                    echo CJSON::encode(array(
+                        'response' => false,
+                    ));
+                }
 
 	}
+        
+        
+        
+        
+        
         
 }
