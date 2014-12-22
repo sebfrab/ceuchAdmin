@@ -54,6 +54,7 @@
                                         ),
                                         'items'=>array(
                                                 array('label'=>'Home', 'url'=>array('/site/index'), 'visible'=>!Yii::app()->user->isGuest),
+                                                array('label'=>'Albumes', 'url'=>array('/albumes/admin'), 'visible'=>!Yii::app()->user->isGuest),
                                                 array('label'=>'Noticias', 'url'=>array('/noticias/admin'), 'visible'=>!Yii::app()->user->isGuest),
                                                 array('label'=>'Compromisos', 'url'=>array('/compromisos/admin'), 'visible'=>!Yii::app()->user->isGuest),
                                                 array('label'=>'Apostolado', 'url'=>array('/apostolado/admin'), 'visible'=>!Yii::app()->user->isGuest),
