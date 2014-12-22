@@ -20,6 +20,8 @@
         <!-- Add fancyBox -->
         <link rel="stylesheet" href="<?php echo Yii::app()->request->baseUrl ?>/js/fancybox/jquery.fancybox.css" type="text/css" media="screen" />
         
+        <link rel="stylesheet" href="<?php echo Yii::app()->request->baseUrl ?>/css/jquery.contextMenu.css" type="text/css" />
+        
         <?php Yii::app()->clientScript->registerCoreScript('jquery'); ?>
         
 </head>
@@ -101,6 +103,12 @@
         <script type="text/javascript" src="<?php echo Yii::app()->request->baseUrl; ?>/js/dropdown.js"></script>
         <script type="text/javascript" src="<?php echo Yii::app()->request->baseUrl; ?>/js/jquery.blockUI.js"></script>
         
+                <script type="text/javascript" src="<?php echo Yii::app()->request->baseUrl; ?>/js/jquery.lazyload.js"></script>
+        <script type="text/javascript" src="<?php echo Yii::app()->request->baseUrl; ?>/js/jquery.scrollstop.js"></script>
+        
+        <script type="text/javascript" src="<?php echo Yii::app()->request->baseUrl; ?>/js/jquery.contextMenu.js"></script>
+        <script type="text/javascript" src="<?php echo Yii::app()->request->baseUrl; ?>/js/jquery.ui.position.js"></script>
+        
         <!-- Slider -->
         <script src="<?php echo Yii::app()->request->baseUrl; ?>/owl-carousel/owl.carousel.min.js"></script>
         
@@ -109,10 +117,65 @@
         
         
         <script type="text/javascript">
+            
             $(document).ready(function() {
+                $.contextMenu({
+                    selector: '.context-menu-one', 
+                    callback: function(key, options) {
+                        var m = "clicked: " + key;
+                        window.console && console.log(m) || alert(m); 
+                    },
+                    items: {
+                        "delete": {
+                            name: "Eliminar", 
+                            icon: "delete", 
+                            callback: 
+                                function(key, opt){ 
+                                    obj = $(this);
+                                    var data = {
+                                        id: $(this).find('img').attr('id'),
+                                        img: $(this).find('img').attr('alt')
+                                    };
+                                    $.ajax({
+                                        type: "POST",
+                                        url: <?php echo "'".Yii::app()->request->baseUrl."/albumes/deleteImg'"; ?>,
+                                        data: data,
+                                        success: function(){ 
+                                            obj.hide("fast");
+                                        }
+                                    });
+                                }
+                        },
+                        "edit": {
+                            name: "Portada", 
+                            icon: "edit",
+                            callback: 
+                                function(key, opt){ 
+                                    var data = {
+                                        id: $(this).find('img').attr('id'),
+                                        img: $(this).find('img').attr('alt')
+                                    };
+                                    $.ajax({
+                                        type: "POST",
+                                        url: <?php echo "'".Yii::app()->request->baseUrl."/albumes/portada'"; ?>,
+                                        data: data,
+                                        success: function(){ 
 
-               
+                                        }
+                                    });
+                                }
+                        }
+                    }
+                });
+                
+                $("img.lazy").lazyload({
+                    event: "scrollstop"
+                });
             });
+            
+            $('.context-menu-one').on('click', function(e){
+                console.log('clicked', this);
+            })
         </script>
 
 </body>

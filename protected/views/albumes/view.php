@@ -29,7 +29,32 @@ $this->menu=array(
 	),
 )); ?>
 
+<?php
+    $this->widget('ext.coco.CocoWidget'
+        ,array(
+            'id'=>'cocowidget1',
+            'onCompleted'=>'function(id,filename,jsoninfo){
+                        var img = "<div class=\"col-lg-3 col-md-3 col-sm-4 col-xs-6 context-menu-one box\">";
+                        img += "<img id=\"'.$model->idalbumes.'\" alt="+filename+" class=\"thumbnail\" src=\"../../images/albumes/'.$model->idalbumes.'/thumbs/"+filename+"\" >";
+                        img += "</div>";
+                        $("#galeryNew").append(img);
+             }',
+            'onCancelled'=>'function(id,filename){ alert("cancelled"); }',
+            'onMessage'=>'function(m){ alert(m); }',
+            'allowedExtensions'=>array('jpeg','jpg','png'),
+            'sizeLimit'=>2000000,
+            'uploadDir' => '../images/albumes/'.$model->idalbumes.'/',
+            // para recibir el archivo subido:
+            'receptorClassName'=>'application.models.MyModel',
+            'methodName'=>'onFileUploaded',
+            'userdata'=>$model->primaryKey,
+        ));
+   ?>
 
+
+<div id="galeryNew">
+
+</div>
 <?php 
     $this->widget('ext.SFListGallery',array(
         'model' => $model

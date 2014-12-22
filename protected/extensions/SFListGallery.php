@@ -6,7 +6,7 @@ class SFListGallery extends CWidget{
     
     public function init(){
         parent::init();
-        $this->formulario($this->model);
+        //$this->formulario($this->model);
         $this->gallery($this->model);
     }
     
@@ -26,18 +26,16 @@ class SFListGallery extends CWidget{
         $this->endWidget();
     }
     
-    
     public function gallery($model){
         $dir="../images/albumes/".$model->idalbumes."/thumbs";
         $directorio=opendir($dir); 
             while ($archivo = readdir($directorio)){
                 if (!is_dir($archivo) && $archivo!="Thumbs.db"){
-                    echo "<div class=\"col-lg-3 col-md-3 col-sm-4 col-xs-6\">";
-                        echo "<img class=\"thumbnail\" src=\"../$dir/$archivo\" >";
+                    echo "<div class=\"col-lg-3 col-md-3 col-sm-4 col-xs-6 context-menu-one box\">";
+                        echo "<img id=\"$model->idalbumes\" alt=\"$archivo\" class=\"lazy thumbnail\" data-original=\"../$dir/$archivo\" >";
                     echo "</div>";
                 }
             }
     }
-    
 }
 ?>

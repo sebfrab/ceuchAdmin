@@ -104,4 +104,23 @@ class Albumes extends CActiveRecord
 	{
 		return parent::model($className);
 	}
+        
+        public static function resize($path,$pathThumbs){
+            copy($path,$pathThumbs);
+            $img = Yii::app()->simpleImage->load($pathThumbs);
+            $img->resize(300,225);
+            $img->save($pathThumbs);
+            
+            
+            $imagen = getimagesize($path);
+            $ancho = $imagen[0];
+            $alto = $imagen[1]; 
+            
+            if($ancho > 1400){
+                $img2 = Yii::app()->simpleImage->load($path);
+                $img2->resizeToWidth(1400);
+                $img2->save($path);
+            }     
+            
+        }
 }

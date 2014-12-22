@@ -28,7 +28,7 @@ class AlbumesController extends Controller
 	{
 		return array(
 			array('allow', // allow authenticated user to perform 'create' and 'update' actions
-				'actions'=>array('create','update','admin','delete','index','view'),
+				'actions'=>array('create','update','admin','delete','index','view','deleteImg','portada','upload'),
 				'users'=>array('@'),
 			),
 			array('deny',  // deny all users
@@ -95,6 +95,23 @@ class AlbumesController extends Controller
 		));
 	}
 
+        
+        public function actionUpload() {
+            Yii::import("ext.EAjaxUpload.qqFileUploader");
+
+            $folder = 'uploads/'; // folder for uploaded files
+            $allowedExtensions = array("jpg","jpeg"); //array("jpg","jpeg","gif","exe","mov" and etc...
+            $sizeLimit = 10 * 1024 * 1024; // maximum file size in bytes
+            $uploader = new qqFileUploader($allowedExtensions, $sizeLimit);
+            $result = $uploader->handleUpload($folder);
+            $return = htmlspecialchars(json_encode($result), ENT_NOQUOTES);
+
+            $fileSize = filesize($folder . $result['filename']); //GETTING FILE SIZE
+            $fileName = $result['filename']; //GETTING FILE NAME
+
+            echo $return; // it's array 
+        }
+        
 	/**
 	 * Deletes a particular model.
 	 * If deletion is successful, the browser will be redirected to the 'admin' page.
@@ -108,7 +125,34 @@ class AlbumesController extends Controller
 		if(!isset($_GET['ajax']))
 			$this->redirect(isset($_POST['returnUrl']) ? $_POST['returnUrl'] : array('admin'));
 	}
+        
+        public function actionDeleteImg()
+	{
+		$id  = $_POST['id'];
+                $img = $_POST['img'];
+                $url_normal = "../images/albumes/$id/normal/$img";
+                $url_thumbs = "../images/albumes/$id/thumbs/$img";
+                
+                if(unlink($url_normal) && unlink($url_thumbs)){
+                    echo "true";
+                }
+                
+                //unlink($directorio);
+	}
 
+        public function actionPortada()
+	{
+                $id  = $_POST['id'];
+                $img = $_POST['img'];
+                
+                $model = Albumes::model()->findByPk($id);
+                $model->portada = $img;
+                if($model->update()){
+                    echo "true";
+                }else{
+                    echo "false";
+                }
+        }
 	/**
 	 * Lists all models.
 	 */

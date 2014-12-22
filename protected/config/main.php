@@ -19,6 +19,7 @@ return array(
 	'import'=>array(
 		'application.models.*',
 		'application.components.*',
+                'application.extensions.coco.*',
 	),
 
 	'modules'=>array(
@@ -90,6 +91,9 @@ return array(
 				*/
 			),
 		),
+                'simpleImage'=>array(
+                        'class' => 'application.extensions.CSimpleImage',
+                ),
 	),
 
 	// application-level parameters that can be accessed
