@@ -31,12 +31,14 @@ $this->menu=array(
             // para recibir el archivo subido:
             'receptorClassName'=>'application.models.MyModel',
             'methodName'=>'onFileUploaded',
+            'buttonText'=>'Busca y sube !!!',
+            'dropFilesText'=>'Arrastra y suelta !',
             'userdata'=>$model->primaryKey,
         ));
    ?>
 
 
-<div id="galeryNew">
+<div id="galeryNew" style="margin-top: 50px;">
 </div>
 <?php 
     $this->widget('ext.SFListGallery',array(
