@@ -57,7 +57,7 @@ class Albumes extends CActiveRecord
 	public function attributeLabels()
 	{
 		return array(
-			'idalbumes' => 'Idalbumes',
+			'idalbumes' => '#',
 			'titulo' => 'Titulo',
 			'ano' => 'Ano',
 			'portada' => 'Portada',
@@ -105,22 +105,51 @@ class Albumes extends CActiveRecord
 		return parent::model($className);
 	}
         
-        public static function resize($path,$pathThumbs){
-            copy($path,$pathThumbs);
-            $img = Yii::app()->simpleImage->load($pathThumbs);
-            $img->resize(300,225);
-            $img->save($pathThumbs);
-            
-            
+        public static function resize($path,$pathThumbs){ 
+            //instancio imagen subida y verifico si el width es superior a 1400
+            //si lo es se reduce su tamaño a 1400
             $imagen = getimagesize($path);
             $ancho = $imagen[0];
             $alto = $imagen[1]; 
-            
             if($ancho > 1400){
                 $img2 = Yii::app()->simpleImage->load($path);
                 $img2->resizeToWidth(1400);
                 $img2->save($path);
-            }     
+            }
             
+            //copio la imagen subida (redimencionada si cumple lo anterior)
+            //se copia con un tamaño de 300x225
+            copy($path,$pathThumbs);
+            $img = Yii::app()->simpleImage->load($pathThumbs);
+            $img->resize(300,225);
+            $img->save($pathThumbs);  
         }
+        
+        public static function removeDirectory($path){
+            $path = rtrim( strval( $path ), '/' ) ;
+    
+            $d = dir( $path );
+
+            if( ! $d )
+                return false;
+
+            while ( false !== ($current = $d->read()) )
+            {
+                if( $current === '.' || $current === '..')
+                    continue;
+
+                $file = $d->path . '/' . $current;
+
+                if( is_dir($file) )
+                    Albumes::model()->removeDirectory($file);
+
+                if( is_file($file) )
+                    unlink($file);
+            }
+
+            rmdir( $d->path );
+            $d->close();
+            return true;
+        }
+
 }

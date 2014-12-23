@@ -8,8 +8,7 @@ $this->breadcrumbs=array(
 );
 
 $this->menu=array(
-	array('label'=>'List Albumes', 'url'=>array('index')),
-	array('label'=>'Create Albumes', 'url'=>array('create')),
+	array('label'=>'Nuevo Album', 'url'=>array('create')),
 );
 
 Yii::app()->clientScript->registerScript('search', "
@@ -33,12 +32,28 @@ $('.search-form form').submit(function(){
 	'id'=>'albumes-grid',
 	'dataProvider'=>$model->search(),
 	'filter'=>$model,
+        'itemsCssClass' => 'table table-hover',
+        'pager' => array(
+            'header' => '',
+            'hiddenPageCssClass' => 'disabled',
+            'maxButtonCount' => 10,
+            'cssFile' => false,
+            'prevPageLabel' => '<i class="icon-chevron-left"><</i>',
+            'nextPageLabel' => '<i class="icon-chevron-right">></i>',
+            'firstPageLabel' => 'Primero',
+            'lastPageLabel' => 'Último',
+        ),
 	'columns'=>array(
 		'idalbumes',
 		'titulo',
 		'ano',
-		'portada',
-		'fecha',
+                'fecha',
+                array(
+                    'name'=>'portada',
+                    'type'=>'html',
+                    'filter'=>'',
+                    'value'=>'CHtml::image("../../images/albumes/".$data->idalbumes."/thumbs/".$data->portada, "alt", array("width" => 40, "height" => 30))',
+                    ),
 		array(
                         'class'=>'CButtonColumn',
                         'htmlOptions'=>array('width'=>'90px'),
@@ -47,7 +62,7 @@ $('.search-form form').submit(function(){
                         'buttons'=>array(
                             'view' => array
                             (
-                                'label'=>'ver',
+                                'label'=>'ver / imágenes',
                                 'imageUrl'=>Yii::app()->request->baseUrl.'/images/iconos/ver.png',
                             ),
                             'update' => array

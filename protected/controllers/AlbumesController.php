@@ -62,8 +62,14 @@ class AlbumesController extends Controller
 		if(isset($_POST['Albumes']))
 		{
 			$model->attributes=$_POST['Albumes'];
-			if($model->save())
+                        $model->fecha  = date("Y-m-d H:i:s");
+                        $model->portada = "../../../portada.jpg";
+			if($model->save()){
+                                mkdir("../images/albumes/$model->idalbumes", 0777);
+                                mkdir("../images/albumes/$model->idalbumes/normal", 0777);
+                                mkdir("../images/albumes/$model->idalbumes/thumbs", 0777);
 				$this->redirect(array('view','id'=>$model->idalbumes));
+                                }
 		}
 
 		$this->render('create',array(
@@ -120,6 +126,7 @@ class AlbumesController extends Controller
 	public function actionDelete($id)
 	{
 		$this->loadModel($id)->delete();
+                Albumes::model()->removeDirectory("../images/albumes/".$id);
 
 		// if AJAX request (triggered by deletion via admin grid view), we should not redirect the browser
 		if(!isset($_GET['ajax']))

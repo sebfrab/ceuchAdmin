@@ -120,6 +120,8 @@
         <script type="text/javascript">
             
             $(document).ready(function() {
+                $(".fancybox").fancybox();
+                
                 $.contextMenu({
                     selector: '.context-menu-one', 
                     callback: function(key, options) {

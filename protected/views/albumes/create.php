@@ -8,8 +8,7 @@ $this->breadcrumbs=array(
 );
 
 $this->menu=array(
-	array('label'=>'List Albumes', 'url'=>array('index')),
-	array('label'=>'Manage Albumes', 'url'=>array('admin')),
+	array('label'=>'Mantenedor Albumes', 'url'=>array('admin')),
 );
 ?>
 

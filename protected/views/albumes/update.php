@@ -9,10 +9,9 @@ $this->breadcrumbs=array(
 );
 
 $this->menu=array(
-	array('label'=>'List Albumes', 'url'=>array('index')),
-	array('label'=>'Create Albumes', 'url'=>array('create')),
-	array('label'=>'View Albumes', 'url'=>array('view', 'id'=>$model->idalbumes)),
-	array('label'=>'Manage Albumes', 'url'=>array('admin')),
+	array('label'=>'Nuevo Album', 'url'=>array('create')),
+	array('label'=>'Ver Album', 'url'=>array('view', 'id'=>$model->idalbumes)),
+	array('label'=>'Mantenedor Albumes', 'url'=>array('admin')),
 );
 ?>
 
