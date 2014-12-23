@@ -32,7 +32,7 @@ class Albumes extends CActiveRecord
 			array('titulo', 'length', 'max'=>50),
 			array('ano', 'length', 'max'=>7),
 			array('portada', 'length', 'max'=>250),
-                        array('image', 'file', 'types'=>'jpg'),
+                        //array('image', 'file', 'types'=>'jpg'),
 			array('fecha', 'safe'),
 			// The following rule is used by search().
 			// @todo Please remove those attributes that should not be searched.
