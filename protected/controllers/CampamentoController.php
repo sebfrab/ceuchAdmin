@@ -74,6 +74,17 @@ class CampamentoController extends Controller
                         //$uploadedFile->saveAs(Yii::app()->basePath.'/../banner/'.$fileName);  // image will uplode to rootDirectory/banner/
                         $uploadedFile->saveAs($path_picture.$fileName);
                         $model->img= $fileName;
+                        
+                        
+                        $path=$path_picture.$fileName;
+                        $imagen = getimagesize($path);
+                        $ancho = $imagen[0];
+                        $alto = $imagen[1]; 
+                        if($ancho > 1290){
+                            $img2 = Yii::app()->simpleImage->load($path);
+                            $img2->resizeToWidth(1290);
+                            $img2->save($path);
+                        }
                     }
                     ////////////////////////////////////////////////////////////////////
                     
@@ -112,6 +123,16 @@ class CampamentoController extends Controller
                         {
                             $uploadedFile->saveAs($path_picture.$fileName);// image will uplode to rootDirectory/banner/
                             $model->img = $fileName;
+                            
+                            $path=$path_picture.$fileName;
+                            $imagen = getimagesize($path);
+                            $ancho = $imagen[0];
+                            $alto = $imagen[1]; 
+                            if($ancho > 1290){
+                                $img2 = Yii::app()->simpleImage->load($path);
+                                $img2->resizeToWidth(1290);
+                                $img2->save($path);
+                            }
                         }
                         ////////////////////////////////////////////////////////////////////
                         
