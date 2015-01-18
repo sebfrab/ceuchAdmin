@@ -26,7 +26,7 @@ $this->menu=array(
             'onCancelled'=>'function(id,filename){ alert("cancelled"); }',
             'onMessage'=>'function(m){ alert(m); }',
             'allowedExtensions'=>array('jpeg','jpg','png'),
-            'sizeLimit'=>7000000,
+            'sizeLimit'=>9000000,
             'uploadDir' => '../images/albumes/'.$model->idalbumes.'/',
             // para recibir el archivo subido:
             'receptorClassName'=>'application.models.MyModel',
